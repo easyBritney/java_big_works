@@ -1,12 +1,14 @@
-<%@ page import="parser.ParseToCsv" %><%--
+<%@ page import="parser.ParseToCsv" %>
+<%@ page import="java.util.Date" %>
+<%--
   Created by IntelliJ IDEA.
   User: mac
   Date: 2018/11/20
-  Time: ä¸‹åˆ6:32
+  Time: ÏÂÎç6:32
   To change this template use File | Settings | File Templates.
 --%>
 <%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=GB2312" language="java" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -14,7 +16,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <%--<meta charset="utf-8">--%>
+    <meta charset="GB2312">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>title</title>
@@ -37,13 +40,13 @@
                 <li class="nav-header">
                     <div class="dropdown profile-element">
                         <span>
-                            <img src="img/é¾™çŒ«.png" class="img-circle" alt="img">
+                            <img src="img/ÁúÃ¨.png" class="img-circle" alt="img">
                         </span>
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">é’é“œå°å§å§</strong>
-                             </span> <span class="text-muted text-xs block">ç®¡ç†å‘˜ <b class="caret"></b></span> </span> </a>
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">ÇàÍ­Ğ¡½ã½ã</strong>
+                             </span> <span class="text-muted text-xs block">¹ÜÀíÔ± <b class="caret"></b></span> </span> </a>
                         <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                            <li><a href="index.jsp">ç™»å‡º</a></li>
+                            <li><a href="index.jsp">µÇ³ö</a></li>
                         </ul>
                     </div>
                     <div class="logo-element">
@@ -51,22 +54,22 @@
                     </div>
                 </li>
                 <li  class="active">
-                    <a href="homepage.jsp"><i class="fa fa-th-large"></i> <span class="nav-label">ä¸»é¡µ</span></a>
+                    <a href="homepage.jsp"><i class="fa fa-th-large"></i> <span class="nav-label">Ö÷Ò³</span></a>
                 </li>
                 <li>
-                    <a href="datatable.jsp"><i class="fa fa-th-large"></i> <span class="nav-label">è¡¨æ ¼</span></a>
+                    <a href="datatable.jsp"><i class="fa fa-th-large"></i> <span class="nav-label">±í¸ñ</span></a>
                 </li>
                 <li>
-                    <a href="graph_flot.jsp"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">flotå›¾è¡¨</span> </a>
+                    <a href="graph_flot.jsp"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">flotÍ¼±í</span> </a>
                 </li>
                 <li>
-                    <a href="answer.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">ç®€å•é—®ç­”</span> </a>
+                    <a href="answer.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">¼òµ¥ÎÊ´ğ</span> </a>
                 </li>
                 <li>
                     <a href="d3.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">d3</span> </a>
                 </li>
                 <li >
-                    <a href="gragh_label.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">graghLabel</span> </a>
+                    <a href="gragh_label.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">labelÍ¼±í</span> </a>
                 </li>
             </ul>
 
@@ -82,7 +85,7 @@
                 <ul class="nav navbar-top-links navbar-right">
                     <li>
                         <a href="index.jsp">
-                            <i class="fa fa-sign-out"></i> é€€å‡º
+                            <i class="fa fa-sign-out"></i> ÍË³ö
                         </a>
                     </li>
                 </ul>
@@ -94,10 +97,10 @@
                 <div class="col-lg-12">
                     <div class="text-center m-t-lg">
                         <h1>
-                            æ¬¢è¿æ¥åˆ°å°å§å§çš„é¡¹ç›®
+                            »¶Ó­À´µ½Ğ¡½ã½ãµÄÏîÄ¿
                         </h1>
                         <small>
-                            æ²¡é”™ï¼Œtaå¾ˆå¯çˆ±
+                            Ã»´í£¬taºÜ¿É°®
                         </small>
                     </div>
                 </div>
@@ -107,7 +110,7 @@
             <div class="col-lg-12">
                 <div class="ibox">
                     <div class="ibox-title">
-                        <h5>æ–‡ä»¶ä¸Šä¼ </h5>
+                        <h5>ÎÄ¼şÉÏ´«</h5>
                     </div>
                     <form  action="${pageContext.request.contextPath}/servlet/UploadHandleServlet"
                            class="dropzone" id="dropzoneForm" enctype="multipart/form-data" method="post">
@@ -116,28 +119,29 @@
                                 <input name="file" type="file" multiple />
                             </div>
                         </div>
-                        <%--<input class="btn btn-primary col-lg-2" type="submit" value="ä¸Šä¼ ">--%>
+                        <%--<input class="btn btn-primary col-lg-2" type="submit" value="ÉÏ´«">--%>
                     </form>
                 </div>
 
             </div>
         </div>
+        <input id ="btn1" class="btn btn-primary col-lg-2" type="submit" value="·ÖÎöÊı¾İ">
     </div>
 
 
         <%--<div class="container-fluid">--%>
             <%--<form id="form" action="upload/insert" method="post" enctype="multipart/form-data">--%>
                 <%--<div class="row form-group">--%>
-                    <%--<label class="col-md-4">å›¾ç‰‡ä¸Šä¼ :</label>--%>
+                    <%--<label class="col-md-4">Í¼Æ¬ÉÏ´«:</label>--%>
                     <%--<div class="col-sm-12">--%>
                         <%--<input id="input-id" name="file" multiple type="file" data-show-caption="true">--%>
                     <%--</div>--%>
                 <%--</div>--%>
             <%--</form>--%>
         <%--</div>--%>
-        <div id="page-wrapper" class="gray-bg">
+        <%--<div id="page-wrapper" class="gray-bg">--%>
 
-        </div>
+        <%--</div>--%>
 
 
 </div>
@@ -183,6 +187,11 @@
             <%--}--%>
         <%--});--%>
     <%--});--%>
+    $("#btn1").click(function(){
+       <%ParseToCsv.parseToCsv("web/WEB-INF/upload/","web/WEB-INF/upload/csv","upload"+new Date().getTime());%>
+        alert("·ÖÎöÍê±Ï");
+    });
+
     $("#dropzoneForm").dropzone({
         paramName: "file", // The name that will be used to transfer the file
         //  maxFilesize: 2000, // MB
@@ -192,13 +201,10 @@
         // url:"systemController.action?saveFile",
         uploadMultiple:true,
         acceptedFiles: ".doc,.txt,.docx",
-        dictResponseError: 'æ–‡ä»¶ä¸Šä¼ å¤±è´¥!',
-        dictDefaultMessage: "<strong>åœ¨è¿™é‡Œåˆ é™¤æ–‡ä»¶æˆ–ç‚¹å‡»ä¸Šä¼ ã€‚</strong></br>è¯·å°†è¦ä¸Šä¼ çš„æ–‡ä»¶æ”¾åœ¨æ­¤å¤„"
+        dictResponseError: 'ÎÄ¼şÉÏ´«Ê§°Ü!',
+        dictDefaultMessage: "<strong>ÔÚÕâÀïÉ¾³ıÎÄ¼ş»òµã»÷ÉÏ´«¡£</strong></br>Çë½«ÒªÉÏ´«µÄÎÄ¼ş·ÅÔÚ´Ë´¦"
 
     });
-
-
-
 </script>
 </body>
 
