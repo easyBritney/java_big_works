@@ -16,10 +16,8 @@ import tools.Txt;
 
 public class MatchPrisoner {
     private static String regexPrisoner =
-//	"([一二三四五六七八九十]+[\\pP][被][告][人][\\u0391-\\uFFE5&&[^\n]]+)";   [一二三四五六七八九十]*[、]*]?
-
-            "(([\\n\\r\\t ]|[、])被告人[\\u0391-\\uFFE5·&&[^\\n]]+?犯[\\u0391-\\uFFE5[ ]（）()[0-9],&&[^\\n]]+?并处[\\u0391-\\uFFE5[0-9].[ ]&&[^\\n\\r（(,，。]]+)";
-
+            "(([\\n\\r\\t ]|[、])被告人[\\u0391-\\uFFE5·&&[^\\n]]+?犯[\\u0391-\\uFFE5[ ]（）()[0-9],&&[^\\n]]+?并处[\\u0391-\\uFFE5[0-9].[ ]&&[^\\n\\r（(,，。]]+)"+
+            "|(([\\n\\r\\t ]|[、])被告人[\\u0391-\\uFFE5·&&[^\\n]]+?犯[\\u0391-\\uFFE5[ ]（）()[0-9],&&[^\\n]]+?没收[\\u0391-\\uFFE5[0-9].[ ]&&[^\\n\\r（(,，。]]+)";
     //·:：[A-Z][a-z][0-9][ ]()（）,
     private static String regexInfo = "([\\n\\r\\t ]被告人[\\u0391-\\uFFE5·:：\"“”&[A-Z][a-z][0-9][ ]()（）,&&[^；\\n\\r\\t]]+生[\\u0391-\\uFFE5[A-Z][a-z][0-9]()（）\\- ,；;.?\\n\\r&&[^.。]]+。" +
             "[\\u0391-\\uFFE5[A-Z][a-z][0-9]\\- ,.&&[^.。]]*)|" +
@@ -65,7 +63,7 @@ public class MatchPrisoner {
 //            CustomDictionary.insert(findName, "nr 2048");
             // Txt.WriteDictionary(findName + " nr 2048", "E:\\学习\\java项目\\HanLP-master\\HanLP-master\\data\\dictionary\\custom\\毒贩词库.txt");
 
-            String regularIdcard = "^(\\d{6})(19|20)(\\d{2})(1[0-2]|0[1-9])(0[1-9]|[1-2][0-9]|3[0-1])(\\d{3})(\\d|X|x)?$";
+            String regularIdcard = "(\\d{6})(19|20)(\\d{2})(1[0-2]|0[1-9])(0[1-9]|[1-2][0-9]|3[0-1])(\\d{3})(\\d|X|x)";
 
             Matcher idMarcher = Pattern.compile(regularIdcard).matcher(matchString);
 
@@ -77,7 +75,8 @@ public class MatchPrisoner {
                 leverMarcher = Pattern.compile(regularLever).matcher(info[index]);
                 if (info[index].contains("男") ||info[index].contains("女"))
                 {
-                    prisoner.setSex(info[index]);
+                    if(info[index].length()<4)
+                        prisoner.setSex(info[index]);
                 }
                 else if(info[index].contains("日出生"))
                 {
@@ -144,16 +143,20 @@ public class MatchPrisoner {
 
 
         while (matcher.find()) {
-            if (matcher.group() != null && !matcher.group().contains("中华人民共和国") && matcher.group().length() < 130&&!matcher.group().contains("建议")) //
+            String content ;
+
+            content = matcher.group();
+            System.out.println(content);
+            if (!content.contains("中华人民共和国") && content.length() < 130&&!content.contains("建议")) //
             {
-                System.out.println(matcher.group());
                 String crimes="";
                 String prisonTime = "";
                 String type = "";
                 String penaltyType = "";
+                boolean findFlag = false;
                 float penaltySum = 0;
-                String penaltyList[] = matcher.group().trim().split("[，()（）；;]");
-                Matcher matcher2 = Pattern.compile("犯[\\u0391-\\uFFE5[、]&&[^；，]]+?罪").matcher(matcher.group()); //犯xx、xx罪
+                String penaltyList[] = content.trim().split("[，()（）；;]");
+                Matcher matcher2 = Pattern.compile("犯[\\u0391-\\uFFE5[、]&&[^；，]]+?罪").matcher(content); //犯xx、xx罪
                 while (matcher2.find())
                     crimes=crimes.concat(matcher2.group());
                 for (String info : penaltyList) {
@@ -162,6 +165,7 @@ public class MatchPrisoner {
                         Matcher penaltyMatcher = Pattern.compile(regexPrison).matcher(info);
                         if (penaltyMatcher.find())
                             type = penaltyMatcher.group();
+                        findFlag = true;
                         prisonTime = info.substring(info.lastIndexOf(type), info.length()).replaceAll(type, "");
                     } else if (info.contains("罚金") || info.contains("没收财产") || info.contains("没收个人财产") || info.contains("没受个人财产")) {
                         if(!info.contains("缴纳")&&!info.contains("交纳"))
@@ -176,6 +180,8 @@ public class MatchPrisoner {
                         }
                     }
                 }
+                if(!findFlag)
+                    break;
                 String name="";
                 if (penaltyList[0].contains("被告人"))
                 {
@@ -203,9 +209,15 @@ public class MatchPrisoner {
     }
 
     public static void main(String[] args) {
-        new MatchPrisoner().Match(ReadDocUtil.readWord(
-                //"E:\\学习\\java项目\\舟山\\（2016）浙0902刑初00262号.doc"
-                "E:\\学习\\java项目\\判决书\\2017年走私、贩卖、运输、制造毒品罪\\温州\\（2017）浙0302刑初236号.doc"
-        ));
+//        new MatchPrisoner().Match(ReadDocUtil.readWord(
+//                //"E:\\学习\\java项目\\舟山\\（2016）浙0902刑初00262号.doc"
+//                "E:\\学习\\java项目\\判决书\\2017年走私、贩卖、运输、制造毒品罪\\温州\\（2017）浙0302刑初236号.doc"
+//        ));
+        String matchString = "asdfdsafdsf331032197701081103asfdsa";
+        String regularIdcard = "(\\d{6})(19|20)(\\d{2})(1[0-2]|0[1-9])(0[1-9]|[1-2][0-9]|3[0-1])(\\d{3})(\\d|X|x)";
+
+        Matcher idMarcher = Pattern.compile(regularIdcard).matcher(matchString);
+        if(idMarcher.find())
+            System.out.println(idMarcher.group());
     }
 }

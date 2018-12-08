@@ -1,4 +1,5 @@
-
+<%@ page import="hibernate_test.json.TagCloudJsonGenerate" %>
+<%@ page import="java.io.File" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!DOCTYPE html>
@@ -64,7 +65,7 @@
                     <a href="d3.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">d3</span> </a>
                 </li>
                 <li class="active">
-                    <a href="gragh_label.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">graghlabel</span> </a>
+                    <a href="gragh_label.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">graghLabel</span> </a>
                 </li>
             </ul>
 
@@ -119,15 +120,20 @@
 
 
 <script>
+    <%
+        File file = new File("C:/source/javabigwork/out/artifacts/javabigwork_war_exploded/data/tagCloud.json");
+        if(!file.exists())
+            TagCloudJsonGenerate.createJson();
+    %>
 
     d3.json("data/tagCloud.json", function(error, tagCloud) {
         if (error) throw error;
 
-        let data = tagCloud.example;
+        let data = tagCloud;
 
         let words = data.map(item => { // 处理原始数据
             return {
-                text: item.text,
+                text: item.drug,
                 size: 10 + item.size * 8,
                 href: item.href,
             };
@@ -306,11 +312,10 @@
         ['京东', '济南', 368, 354]
     ];
 
-    let g =[chart.append("g").attr("transform","translate(300,100)")];
+    let g =[chart.append("g").attr("transform","translate(250,80)")];
 
-    chart.append("text").attr("x", 400).attr("y",50)
-        .attr("class","vbp-header").attr('font-size', '14px').attr('font-weight', '700').text("目标出货量");
-
+    // chart.append("text").attr("x", 400).attr("y",50)
+    //     .attr("class","vbp-header").attr('font-size', '14px').attr('font-weight', '700').text("目标出货量");
 
     let bp=[ viz.bP() // 定义两个BP图
         .data(data)
@@ -334,7 +339,7 @@
     [0].forEach(function(i){// 输出两个BP图数据
         g[i].call(bp[i]); // 输出两个BP图
 
-        g[i].append("text").attr("x",-50).attr("y",-8).style("text-anchor","middle").text("出货渠道");
+        g[i].append("text").attr("x",-50).attr("y",-8).style("text-anchor","middle").text("毒品");
         g[i].append("text").attr("x", 350).attr("y",-8).style("text-anchor","middle").text("城市");
 
         g[i].selectAll(".mainBars")
@@ -358,7 +363,7 @@
         g[i].selectAll(".mainBars") // hover
             .append('title')
             .text(function(d){
-                return d.key + '\n' + d.value + ' 台手机';
+                return d.key + '出现' + d.value + '次';
             });
 
     });
@@ -372,7 +377,7 @@
         .attr('text-anchor', 'middle')
         .attr('x', containerWidth / 2)
         .attr('y', 20)
-        .text('XX手机2016年全国各渠道出货量数据汇总');
+        .text('2017-2018年毒品与城市关系图');
 
     function mouseover(d){
         [0].forEach(function(i){
@@ -384,7 +389,7 @@
             g[i].selectAll(".mainBars")
                 .select('title')
                 .text(function(d){
-                    return d.key + '\n' + d.value + ' 台手机';
+                    return d.key + '出现' + d.value + '次';
                 });
         });
     }
@@ -398,7 +403,7 @@
             g[i].selectAll(".mainBars")
                 .select('title')
                 .text(function(d){
-                    return d.key + '\n' + d.value + ' 台手机';
+                    return d.key + '出现' + d.value + '次';
                 });
         });
     }

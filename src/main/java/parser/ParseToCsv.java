@@ -50,15 +50,19 @@ public class ParseToCsv {
             System.out.println("----First Prisoner"+firstPrisonerName);
 
 
+
             /*
              * 无数据库测试用
              */
+
+
             List<BeanPrisoner> prisoners = new ArrayList<>();
 //            for(String name:tempCrime.getPrisoners().keySet()){
 //                BeanPrisoner prisoner = tempCrime.getPrisoners().get(name);
 //                prisoner.setBeanCrime(tempCrime);
 //                prisoners.add(prisoner);
 //            }
+
             /*
              *无数据库测试用
              */
@@ -99,7 +103,7 @@ public class ParseToCsv {
 
             for(BeanPrisoner prisoner:prisoners)
                 if(!prisonerMap.containsKey(prisoner.getName()))
-                    prisonerMap.put(prisoner.getName(),prisoner);    //鍚堝苟 map
+                    prisonerMap.put(prisoner.getName(),prisoner);
 
             crimes.add(tempCrime);
             String crimeDate = formatTime(tempCrime.getDate());
@@ -142,6 +146,11 @@ public class ParseToCsv {
 
         }
         return returnDateString;
+    }
+
+
+    public static void main(String[] args) {
+        ParseToCsv.parseToCsv("web/WEB-INF/upload/","web/WEB-INF/upload/csv/","upload"+new Date().getTime());
     }
 
 }

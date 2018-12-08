@@ -102,6 +102,19 @@ public class CrimeManager {
         }
         return map;
     }
+    public static boolean hasCrime(String serial)
+    {
+        Session session = HibernateUtil.getSession();
+        String hql ="from BeanCrime where serial =:Serial";
+        Query query = session.createQuery(hql);
+        query.setString("Serial",serial);
+        List<BeanCrime> crimes = query.list();
+        if (crimes==null||crimes.size()==0)
+            return false;
+        else
+            return true;
+    }
+
     public static void main(String[] args) throws IOException {
 
         try{

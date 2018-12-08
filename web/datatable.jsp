@@ -129,6 +129,7 @@
                                     <i class="fa fa-chevron-up"></i>
                                 </a>
                                 <%--<a class="dropdown-toggle" data-toggle="dropdown" href="#">--%>
+<<<<<<< HEAD
                                     <%--<i class="fa fa-wrench"></i>--%>
                                 <%--</a>--%>
                                 <%--<ul class="dropdown-menu dropdown-user">--%>
@@ -136,6 +137,15 @@
                                     <%--</li>--%>
                                     <%--<li><a href="#">选项 2</a>--%>
                                     <%--</li>--%>
+=======
+                                <%--<i class="fa fa-wrench"></i>--%>
+                                <%--</a>--%>
+                                <%--<ul class="dropdown-menu dropdown-user">--%>
+                                <%--<li><a href="#">选项 1</a>--%>
+                                <%--</li>--%>
+                                <%--<li><a href="#">选项 2</a>--%>
+                                <%--</li>--%>
+>>>>>>> 5fb48b8d91c6221809855e81d32e4dc7d9e1c78c
                                 <%--</ul>--%>
                             </div>
                         </div>
