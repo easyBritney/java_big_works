@@ -13,6 +13,7 @@ import tools.Csv;
 import hibernate_test.*;
 
 import java.awt.*;
+import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -35,10 +36,19 @@ public class ParseToCsv {
         ArrayList<String> filePaths = new ReadFilePath().getFiles(filePath);
         ArrayList<BeanCrime> crimes = new ArrayList<>();
         Map<String, BeanPrisoner> prisonerMap = new HashMap<>();
+        File file = new File("web/WEB-INF/upload/csv");
+        if(!file.exists()  && !file.isDirectory())
+        {
+            file.mkdir();
+        }
+
+        if(filePaths==null||filePaths.size()==0)
+            return;
 
         CrimeManager crimeManager = new CrimeManager();
         PrisonerManager prisonerManager = new PrisonerManager();
         DrugManager drugManager = new DrugManager();
+
 
         for (String fileName : filePaths) {
 
