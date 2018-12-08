@@ -24,7 +24,6 @@ import java.util.List;
 import static tools.Csv.writer;
 
 public class ParseToCsv {
-    //writer(String filepath, Pair<String[], ArrayList<String[]>> data, boolean hasHeader, String charSet)
 
     public static String[] titles = {"案号", "法院名称", "地区", "时间", "一案人数", "年龄最小人员出生日期", "第一被告姓名", "性别", "身份证", "名族", "文化程度", "职业", "户籍", "罪名", "刑罚种类", "刑期", "财产刑种类", "财产刑金额", "毒品种类和数量或单位", "毒品单价"};
     public static Map<String, BeanPrisoner> PrisonerMap = new HashMap<>();
@@ -52,7 +51,7 @@ public class ParseToCsv {
 
 
             /*
-             * 鏃犳暟鎹簱鏃舵槧灏�
+             * 无数据库测试用
              */
             List<BeanPrisoner> prisoners = new ArrayList<>();
 //            for(String name:tempCrime.getPrisoners().keySet()){
@@ -61,8 +60,9 @@ public class ParseToCsv {
 //                prisoners.add(prisoner);
 //            }
             /*
-             * 鏃犳暟鎹簱鏃舵槧灏�
+             *无数据库测试用
              */
+
             try {
                 Session session = HibernateUtil.getSession();
                 session.beginTransaction();
@@ -128,7 +128,7 @@ public class ParseToCsv {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日");
         SimpleDateFormat bakDateFormat = new SimpleDateFormat("yyyy年M月d日");
 
-        String returnDateString = "";
+        String returnDateString;
         try {
             returnDateString = dateFormat.format(date);
         }catch (Exception e)
