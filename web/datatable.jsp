@@ -17,11 +17,11 @@
 
     String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html >
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <%--<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">--%>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -98,24 +98,27 @@
                 </ul>
             </nav>
         </div>
+
+
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-10">
                 <h2>数据表格</h2>
-                <%--<ol class="breadcrumb">--%>
-                <%--<li>--%>
-                <%--<a href="index.html">主页</a>--%>
-                <%--</li>--%>
-                <%--<li>--%>
-                <%--<a>表格</a>--%>
-                <%--</li>--%>
-                <%--<li class="active">--%>
-                <%--<strong>数据表格</strong>--%>
-                <%--</li>--%>
-                <%--</ol>--%>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="homepage.jsp">主页</a>
+                    </li>
+                    <li>
+                        <a>表格</a>
+                    </li>
+                    <li class="active">
+                        <strong>数据表格</strong>
+                    </li>
+                </ol>
             </div>
             <div class="col-lg-2">
             </div>
         </div>
+
         <div class="wrapper wrapper-content animated fadeInRight">
             <div class="row">
                 <div class="col-lg-12">
@@ -125,12 +128,21 @@
                                 <a class="collapse-link">
                                     <i class="fa fa-chevron-up"></i>
                                 </a>
+                                <%--<a class="dropdown-toggle" data-toggle="dropdown" href="#">--%>
+                                <%--<i class="fa fa-wrench"></i>--%>
+                                <%--</a>--%>
+                                <%--<ul class="dropdown-menu dropdown-user">--%>
+                                <%--<li><a href="#">选项 1</a>--%>
+                                <%--</li>--%>
+                                <%--<li><a href="#">选项 2</a>--%>
+                                <%--</li>--%>
+                                <%--</ul>--%>
                             </div>
                         </div>
                         <div class="ibox-content">
 
                             <div class="table-responsive" style="overflow:scroll;">
-                                <table class="table table-striped  table-bordered table text-nowrap table-hover dataTables-example" style="min-width:1500px;">
+                                <table class="dataTables-example  table table-striped table-bordered table text-nowrap table-hover" style="min-width:1500px;">
                                     <thead>
                                     <tr>
                                         <th>案号</th>
@@ -161,14 +173,15 @@
                                     <tbody>
                                     <%
                                         List<BeanCrime> list=CrimeManager.loadAllCrimes();
-
                                         for(BeanCrime tl:list)
                                         {
                                             String crimeDate="";
                                             String minPrisonerBirth="";
                                             BeanPrisoner firstPrisoner = PrisonerManager.getPrisoner(tl.getFirstprisonerid());
+                                            if(firstPrisoner==null)
+                                                continue;
                                             crimeDate = ParseToCsv.formatTime(tl.getDate());
-                                            minPrisonerBirth = ParseToCsv.formatTime(firstPrisoner.getBirth());
+                                            minPrisonerBirth = ParseToCsv.formatTime(tl.getMinimumAge());
                                     %>
                                     <tr>
                                         <td><%=tl.getSerial() %></td>
@@ -194,7 +207,6 @@
                                         <td><%=Float.toString(firstPrisoner.getPenaltySum())%></td>
                                         <td><%=tl.sqlShowDrugs() %></td>
                                         <td><%=tl.sqlShowAverageDrugs() %></td>
-
                                     </tr>
                                     <%
                                         }
@@ -234,11 +246,23 @@
             responsive: true,
             dom: '<"html5buttons"B>lTfgitp',
             buttons: [
-                {extend: 'copy'},
+                { extend: 'copy'},
                 {extend: 'csv'},
                 {extend: 'excel', title: 'ExampleFile'},
-                {extend: 'pdf', title: 'ExampleFile'}
+                {extend: 'pdf', title: 'ExampleFile'},
+
+                {extend: 'print',
+                    customize: function (win){
+                        $(win.document.body).addClass('white-bg');
+                        $(win.document.body).css('font-size', '10px');
+
+                        $(win.document.body).find('table')
+                            .addClass('compact')
+                            .css('font-size', 'inherit');
+                    }
+                }
             ]
+
         });
 
     });
