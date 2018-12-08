@@ -122,6 +122,9 @@
 
             </div>
         </div>
+
+        <button id ="btn1" class="btn btn-primary col-lg-2" type="button" value="分析数据"></button>
+
     </div>
 
 
