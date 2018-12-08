@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--%>
-<%@ page contentType="text/html;charset=GB2312" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -14,8 +14,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <%--<meta charset="utf-8">--%>
-    <meta charset="GB2312">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>title</title>
@@ -67,7 +66,7 @@
                     <a href="d3.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">d3</span> </a>
                 </li>
                 <li >
-                    <a href="gragh_label.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">label图表</span> </a>
+                    <a href="gragh_label.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">graghLabel</span> </a>
                 </li>
             </ul>
 
@@ -105,14 +104,14 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="ibox">
                     <div class="ibox-title">
                         <h5>文件上传</h5>
                     </div>
                     <form  action="${pageContext.request.contextPath}/servlet/UploadHandleServlet"
                            class="dropzone" id="dropzoneForm" enctype="multipart/form-data" method="post">
-                        <div class="ibox-content col-lg-6">
+                        <div class="ibox-content col-lg-12">
                             <div class="fallback">
                                 <input name="file" type="file" multiple />
                             </div>
@@ -184,6 +183,20 @@
             <%--}--%>
         <%--});--%>
     <%--});--%>
+    $("#dropzoneForm").dropzone({
+        paramName: "file", // The name that will be used to transfer the file
+        //  maxFilesize: 2000, // MB
+        <%--//url:"<%=request.getContextPath() %>/",--%>
+        dictRemoveFile: "removedfile",
+        addRemoveLinks:true,
+        // url:"systemController.action?saveFile",
+        uploadMultiple:true,
+        acceptedFiles: ".doc,.txt,.docx",
+        dictResponseError: '文件上传失败!',
+        dictDefaultMessage: "<strong>在这里删除文件或点击上传。</strong></br>请将要上传的文件放在此处"
+
+    });
+
 
 
 </script>

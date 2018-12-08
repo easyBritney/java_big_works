@@ -56,7 +56,7 @@
                     <a href="d3.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">d3</span> </a>
                 </li>
                 <li>
-                    <a href="gragh_label.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">简单问答</span> </a>
+                    <a href="gragh_label.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">graghLabel</span> </a>
                 </li>
             </ul>
         </div>

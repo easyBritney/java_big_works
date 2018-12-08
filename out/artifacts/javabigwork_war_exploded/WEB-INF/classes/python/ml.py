@@ -35,11 +35,11 @@ def main(a):
        test_data[header.index(translate[item])] = parse.get(item)
    # print(test_data)
 
+   file = 'c:/source/javabigwork/tmp/csv/dest_csv/modelFile.pkl'
 
-
-   if os.path.exists('c:/source/javabigwork/tmp/python/modelFile.pkl'):
-       linreg = joblib.load('c:/source/javabigwork/tmp/python/modelFile.pkl')
-       print((linreg.predict(np.mat(test_data))))
+   if os.path.exists(file):
+       linreg = joblib.load(file)
+       print(linreg.predict(np.mat(test_data))[0][0])
    else:
        linreg = LinearRegression(normalize=True)
        linreg.fit(train_data, train_result)
@@ -47,8 +47,8 @@ def main(a):
         # print(linreg.intercept_)
         # print(linreg.coef_)
 
-       print(linreg.predict(np.mat(test_data)))
-       joblib.dump(linreg, 'c:/source/javabigwork/tmp/python/modelFile.pkl')
+       print(linreg.predict(np.mat(test_data))[0][0])
+       joblib.dump(linreg, file)
 
 
 if __name__ == '__main__':
