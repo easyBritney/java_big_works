@@ -116,7 +116,6 @@
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
 <script>
-
     let width = 1650,
         height = 800;
 
@@ -133,7 +132,7 @@
         .force("charge", d3.forceManyBody().strength(-100))
         .force("center", d3.forceCenter(width / 2, height / 2));
 
-    d3.json("data/温州.json", function(error, graph) {
+    d3.json("data/温州.json", function (error, graph) {
         if (error) throw error;
 
         let local_links = [];
@@ -149,7 +148,7 @@
             .selectAll("line")
             .data(local_links)
             .enter().append("line")
-            .style("stroke",function(d){
+            .style("stroke", function (d) {
                 // let lineColor;
                 // //根据关系的不同设置线条颜色
                 // if(d.rela === "上位产品" || d.rela === "上游" || d.rela ==="下位产品"){
@@ -160,7 +159,7 @@
                 return "#A254A2";
             })
             .style("pointer-events", "none")
-            .style("stroke-width",0.5)//线条粗细
+            .style("stroke-width", 0.5)//线条粗细
             .attr("stroke-width", function (d) {
                 return Math.sqrt(d.value);
             });
@@ -172,7 +171,7 @@
             .append("text")
             .attr("dy", ".50em")
             .attr("text-anchor", "middle")//在圆圈中加上数据
-            .style('fill',function(node){
+            .style('fill', function (node) {
                 // let color;//文字颜色
                 // let link=links[node.index];
                 // if(node.name === link.source.name && link.rela === "主营产品"){
@@ -182,7 +181,7 @@
                 // }
                 return "#A254A2";
             })
-            .text(function(d) {
+            .text(function (d) {
                 return d.relation;
             });
 
@@ -196,10 +195,10 @@
             .attr("fill", function (d) {
                 return color(d.group);
             })
-            .style("fill",function(node){
+            .style("fill", function (node) {
                 return "#F9EBF9";   //圆圈内部
             })
-            .style('stroke',function(node){
+            .style('stroke', function (node) {
                 return "#A254A2";   //圆圈线条
             })
             .call(d3.drag()
@@ -209,8 +208,8 @@
             .on("dblclick", add_data);
 
 
-        function find_local(data, x){
-            for(let i = 0; i < data.length; ++i){
+        function find_local(data, x) {
+            for (let i = 0; i < data.length; ++i) {
                 // console.log(data[i].source.id);
                 if ((data[i].source.id === x.source && data[i].target.id === x.target) || (data[i].source.id === x.target && data[i].target.id === x.source))
                     return i;
@@ -218,8 +217,8 @@
             return -1;
         }
 
-        function find(data, x){
-            for(let i = 0; i < data.length; ++i){
+        function find(data, x) {
+            for (let i = 0; i < data.length; ++i) {
                 // console.log(data[i].source.id);
                 if ((data[i].source === x.source && data[i].target === x.target) || (data[i].source === x.target && data[i].target === x.source))
                     return i;
@@ -227,12 +226,12 @@
             return -1;
         }
 
-        function add_data(d){
+        function add_data(d) {
             let links = [];
             let nodes = [];
-            for (let i = 0; i < graph.links.length; ++i){
+            for (let i = 0; i < graph.links.length; ++i) {
                 // console.log(graph.links[i])
-                if(graph.links[i].source === d.id) {
+                if (graph.links[i].source === d.id) {
                     local_index = find_local(local_links, graph.links[i]);
                     index = find(links, graph.links[i]);
                     // console.log(local_index);
@@ -248,12 +247,12 @@
                 }
             }
 
-            for (let j = 0; j < graph.nodes.length; ++j){
-                for (let k = 0; k < links.length; ++k){
-                    if(links[k].target === graph.nodes[j].id) {
-                        if (!local_nodes.find(function(x) {
-                                return x.id === graph.nodes[j].id;
-                            }))
+            for (let j = 0; j < graph.nodes.length; ++j) {
+                for (let k = 0; k < links.length; ++k) {
+                    if (links[k].target === graph.nodes[j].id) {
+                        if (!local_nodes.find(function (x) {
+                            return x.id === graph.nodes[j].id;
+                        }))
                             nodes.push(graph.nodes[j]);
                         // console.log(graph.nodes[j])
                     }
@@ -296,7 +295,7 @@
         }
 
         function setTip(d) {
-            return d.id ;
+            return d.id;
         }
 
         function hideTip() {
@@ -312,7 +311,7 @@
             .append("text")
             .attr("dy", ".50em")
             .attr("text-anchor", "middle")//在圆圈中加上数据
-            .style('fill',function(node){
+            .style('fill', function (node) {
                 // let color;//文字颜色
                 // let link=links[node.index];
                 // if(node.name === link.source.name && link.rela === "主营产品"){
@@ -322,7 +321,7 @@
                 // }
                 return "#A254A2";
             })
-            .text(function(d) {
+            .text(function (d) {
                 return d.id;
             });
 
@@ -340,18 +339,34 @@
 
         function ticked() {
             link
-                .attr("x1", function(d) { return d.source.x; })
-                .attr("y1", function(d) { return d.source.y; })
-                .attr("x2", function(d) { return d.target.x; })
-                .attr("y2", function(d) { return d.target.y; });
+                .attr("x1", function (d) {
+                    return d.source.x;
+                })
+                .attr("y1", function (d) {
+                    return d.source.y;
+                })
+                .attr("x2", function (d) {
+                    return d.target.x;
+                })
+                .attr("y2", function (d) {
+                    return d.target.y;
+                });
 
             node
-                .attr("cx", function(d) { return d.x; })
-                .attr("cy", function(d) { return d.y; });
+                .attr("cx", function (d) {
+                    return d.x;
+                })
+                .attr("cy", function (d) {
+                    return d.y;
+                });
 
             node_text
-                .attr("x", function(d){ return d.x; })
-                .attr("y", function(d){ return d.y; });
+                .attr("x", function (d) {
+                    return d.x;
+                })
+                .attr("y", function (d) {
+                    return d.y;
+                });
 
             edge_text
                 .attr("x", function (d) {
@@ -367,7 +382,7 @@
                 .data(local_links)
                 .enter()
                 .append("line")
-                .style("stroke",function(d){
+                .style("stroke", function (d) {
                     // let lineColor;
                     // //根据关系的不同设置线条颜色
                     // if(d.rela === "上位产品" || d.rela === "上游" || d.rela ==="下位产品"){
@@ -378,7 +393,7 @@
                     return "#A254A2";
                 })
                 .style("pointer-events", "none")
-                .style("stroke-width",0.5)//线条粗细
+                .style("stroke-width", 0.5)//线条粗细
                 .attr("stroke-width", function (d) {
                     return Math.sqrt(d.value);
                 })
@@ -392,10 +407,10 @@
                 .attr("fill", function (d) {
                     return color(d.group);
                 })
-                .style("fill",function(node){
+                .style("fill", function (node) {
                     return "#F9EBF9";   //圆圈内部
                 })
-                .style('stroke',function(node){
+                .style('stroke', function (node) {
                     return "#A254A2";   //圆圈线条
                 })
                 .merge(node).call(d3.drag()
@@ -411,7 +426,7 @@
                 .append("text")
                 .attr("dy", ".50em")
                 .attr("text-anchor", "middle")//在圆圈中加上数据
-                .style('fill',function(node){
+                .style('fill', function (node) {
                     // let color;//文字颜色
                     // let link=links[node.index];
                     // if(node.name === link.source.name && link.rela === "主营产品"){
@@ -421,11 +436,10 @@
                     // }
                     return "#A254A2";
                 })
-                .text(function(d) {
+                .text(function (d) {
                     return d.id;
                 })
                 .merge(node_text);
-
 
 
             edge_text = edge_text
@@ -434,7 +448,7 @@
                 .append("text")
                 .attr("dy", ".50em")
                 .attr("text-anchor", "middle")//在圆圈中加上数据
-                .style('fill',function(node){
+                .style('fill', function (node) {
                     // let color;//文字颜色
                     // let link=links[node.index];
                     // if(node.name === link.source.name && link.rela === "主营产品"){
@@ -444,13 +458,13 @@
                     // }
                     return "#A254A2";
                 })
-                .text(function(d) {
+                .text(function (d) {
                     return d.relation;
                 })
                 .merge(edge_text);
 
             edge_text = edge_text
-                .text(function(d) {
+                .text(function (d) {
                     return d.relation;
                 });
 
@@ -472,39 +486,45 @@
         svg.call(d3.zoom().scaleExtent([0.05, 8]).on('zoom', () => {
             // 保存当前缩放的属性值
             let transform = d3.event.transform;
-        link.attr('transform', transform);
-        node.attr("transform",transform);
-        node_text.attr("transform",transform);
-        edge_text.attr("transform",transform);
+            link.attr('transform', transform);
+            node.attr("transform", transform);
+            node_text.attr("transform", transform);
+            edge_text.attr("transform", transform);
     })).on('dblclick.zoom', null);
 
+        function dragstarted(d) {
+            if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+
+        }
+
+        function dragged(d) {
+            d.fx = d3.event.x;
+            d.fy = d3.event.y;
+        }
+
+        function dragended(d) {
+            if (!d3.event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
     });
-
-    function dragstarted(d) {
-        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-        d.fx = d.x;
-        d.fy = d.y;
-
-    }
-
-    function dragged(d) {
-        d.fx = d3.event.x;
-        d.fy = d3.event.y;
-    }
-
-    function dragended(d) {
-        if (!d3.event.active) simulation.alphaTarget(0);
-        d.fx = null;
-        d.fy = null;
-    }
-
-
 </script>
+
 <script>
+
+
     function massage(){
         var txt=document.getElementById("editor").value,
             select=document.getElementById("select_picker").value;
         alert(txt+select);
+        // render(select, txt)
+        simulation.restart()
+    }
+
+    function render(select, text) {
+
     }
 </script>
 </body>
