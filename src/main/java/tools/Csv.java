@@ -78,7 +78,7 @@ public class Csv {
      * @return  转换之后的字符串
      */
 
-    public static String toSemiangle(String src) {
+    private static String toSemiangle(String src) {
         if(src==null)
             return "";
         char[] c = src.toCharArray();

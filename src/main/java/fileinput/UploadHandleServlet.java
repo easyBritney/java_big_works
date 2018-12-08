@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Date;
 import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -13,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
-import parser.ParseToCsv;
 
 public class UploadHandleServlet extends HttpServlet {
 
@@ -83,8 +81,6 @@ public class UploadHandleServlet extends HttpServlet {
                     //删除处理文件上传时生成的临时文件
                     item.delete();
                     message = "文件上传成功！";
-
-                    ParseToCsv.parseToCsv("/WEB-INF/upload/","/WEB-INF/upload/csv","upload"+new Date().getTime());
                 }
             }
         }catch (Exception e) {
