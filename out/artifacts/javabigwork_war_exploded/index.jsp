@@ -1,11 +1,10 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: mac
-  Date: 2018/11/23
-  Time: 下午4:46
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="java.util.Map" %>
+<%@ page import="hibernate_test.WebPassword" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,8 +27,7 @@
             <div class="form-group">
                 <input type="password" class="form-control" id="password" placeholder="密码" required="">
             </div>
-            <button type="submit" class="btn btn-primary block full-width m-b" onclick="pass()">登录</button>
-           <%--<a href="#"><small>忘记密码?</small></a> --%>
+            <button type="submit" id="aaa" class="btn btn-primary block full-width m-b" onclick="pass()">登录</button>
         </form>
     </div>
 </div>
@@ -43,12 +41,26 @@
 </html>
 <script>
     function pass() {
-        if(document.getElementById("login").value=="1" &&document.getElementById("password").value=="1"){
-            // alert("1111");
+        <%Map<String,String> map=WebPassword.judge();%>
+        <%for(Map.Entry<String,String> entry:map.entrySet()){%>
+        if(document.getElementById("login").value==<%=entry.getKey()%> &&
+            document.getElementById("password").value==<%=entry.getValue()%>){
             window.open('homepage.jsp');
-
-        }else {
-            alert("账号或密码错误");
         }
+        <%
+       // String  s=(String)request.getAttribute("password");
+        }
+        %>
+
+
     }
+    <%--$(function(){--%>
+
+    <%--// test 的点击事件--%>
+    <%--$("#aaa").click(function(){--%>
+    <%--<%System.out.println("----");%>--%>
+
+    <%--});--%>
+
+    <%--})--%>
 </script>
