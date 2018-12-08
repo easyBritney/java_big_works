@@ -6,19 +6,17 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import hibernate_test.CrimeManager;
 import javafx.util.Pair;
 import model.BeanCrime;
 import model.BeanPrisoner;
 
 import reader.ReadDocUtil;
-import tools.Csv;
 
 
 public class MatchCrime {
 	public static String regexPlace
     	= "([公][诉][机][关][\\u0391-\\uFFE5&&[^，。]]+人民检察院)" +
-				"|([（〔(][0-9]+[）〕)][\\u0391-\\uFFE5]*[浙]*[0-9]*[刑][初][\\u0391-\\uFFE5[^，。\\s\\S][0-9]]+?号)"+
+				"|([（〔(][0-9]+[）〕)][浙][0-9]+[刑][初][\\u0391-\\uFFE5[^，。\\s\\S][0-9]]+?号)"+
     			"|([以][\\u0391-\\uFFE5[0-9]〔〕\\-（\\[）\\][ ]()&&[^。,]]+?[起][诉][决定]*[书][，]*[分别]*[指][控]被告人[\\u0391-\\uFFE5·&&[^，。\\n\\r]]+)"+ //[^，。\n\r]
     			"|([二][Ｏ〇oO一二三四五六七八九十[0-9][\\s][^;,，。（\\n\\r]]+[年][一二三四五六七八九十[0-9][\\s][^。\\n\\r]]+[月][一二三四五六七八九十[0-9][ ]&&[^。\\n\\r]]+[日]?)"+
 				"|([2][Ｏ〇oO一二三四五六七八九十[0-9][\\s][^;,，。（\\n\\r]]+[年][一二三四五六七八九十[0-9][\\s][^。\\n\\r]]+[月][一二三四五六七八九十[0-9][ ]&&[^。\\n\\r]]+[日]?)";
@@ -38,7 +36,7 @@ public class MatchCrime {
 		BeanCrime crime = new BeanCrime();
 		String text = ReadDocUtil.readWord(fileName);
 
-//		System.out.println(text);
+		System.out.println(text);
 		Map<String,BeanPrisoner> prisonerMap=new MatchPrisoner().Match(text);
         List<BeanPrisoner> prisoners = new ArrayList<BeanPrisoner>();
         Matcher matcher = pattern.matcher(text);
@@ -55,10 +53,8 @@ public class MatchCrime {
         	}
         	else if(matcher.group(2)!=null)  //案件号
         	{
-        		crime.setSerial(Csv.toSemiangle(matcher.group()));
+        		crime.setSerial(matcher.group());
         		System.out.println(matcher.group());
-        		if(CrimeManager.hasCrime(crime.getSerial()))
-        			return null;
         	}
         	else if(matcher.group(3)!=null)   //第一被告
         	{
