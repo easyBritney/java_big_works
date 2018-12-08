@@ -7,7 +7,6 @@ import org.apache.poi.ooxml.extractor.POIXMLTextExtractor;
 import org.apache.poi.openxml4j.opc.OPCPackage;
 import org.apache.poi.xwpf.extractor.XWPFWordExtractor;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
-import tools.Txt;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -24,11 +23,6 @@ public class ReadDocUtil {
         }
         else if(file.getName().endsWith(".docx")){
             return readWord_2007(fileName);
-        }
-        else if(file.getName().endsWith(".txt"))
-        {
-            Txt.ReadeDictionary(fileName);
-            return "";
         }
         else{
             System.out.println("该文件不是word文档，请重新选择！");
@@ -70,5 +64,4 @@ public class ReadDocUtil {
         }
         return "";
     }
-
 }
