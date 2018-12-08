@@ -11,9 +11,11 @@ import java.util.Map;
 
 public class ReadFilePath {
     public ArrayList<String> getFiles(String path) {
+
         ArrayList<String> files = new ArrayList<String>();
         File file = new File(path);
-
+        if(file.listFiles()==null)
+            return null;
         File[] tempList = file.listFiles();
 
         for (int i = 0; i < tempList.length; i++) {
