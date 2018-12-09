@@ -14,6 +14,7 @@ public class ReadFilePath {
 
         ArrayList<String> files = new ArrayList<String>();
         File file = new File(path);
+
         if(file.listFiles()==null)
             return null;
         File[] tempList = file.listFiles();
