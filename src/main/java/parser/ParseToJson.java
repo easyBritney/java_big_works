@@ -33,7 +33,8 @@ public class ParseToJson {
                     "\"penaltySum\":"+"\""+Float.toString(prisonerMap.get(name).getPenaltySum())+"\","+
                     "\"prisonType\":"+"\""+prisonerMap.get(name).getPrisonType()+"\","+
                     "\"prisonTime\":"+"\""+prisonerMap.get(name).getPrisonTime()+"\","+
-                    "\"address\":"+"\""+prisonerMap.get(name).getWork()+"\","+
+                    "\"work\":"+"\""+prisonerMap.get(name).getWork()+"\","+
+                    "\"address\":"+"\""+prisonerMap.get(name).getPlace()+"\","+
                     "\"level\":"+"\""+prisonerMap.get(name).getLevel()+"\","+
                     "\"sex\":"+"\""+prisonerMap.get(name).getSex()+"\","+
                     "\"nation\":"+"\""+prisonerMap.get(name).getNation()+"\","+

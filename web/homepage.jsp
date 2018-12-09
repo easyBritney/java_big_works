@@ -188,7 +188,7 @@
         <%--});--%>
     <%--});--%>
     $("#btn1").click(function(){
-       <%ParseToCsv.parseToCsv("web/WEB-INF/upload/","web/WEB-INF/upload/csv","upload"+new Date().getTime());%>
+       <%ParseToCsv.parseToCsv("web/WEB-INF/upload/","web/WEB-INF/upload/csv/","upload"+new Date().getTime());%>
         alert("分析完毕");
     });
 
