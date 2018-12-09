@@ -85,7 +85,7 @@
         <div class="wrapper wrapper-content animated fadeInRight">
             <div class="row">
                 <div class="col-lg-10">
-                    <div  class="input-group">
+                    <div  class="input-group col-lg-10">
                         <%--<input type="text" class="form-control" id="editor" placeholder="请输入问题">--%>
                         <%--<span class="input-group-btn">--%>
                             <%--<button class="btn btn-primary" type="button" id="myButton" onclick="massage()">--%>
@@ -94,8 +94,9 @@
 
                         <%--</span>--%>
                         <form method="post" action="answer.do">
-                            <textarea  class="form-control "  id="editor" name="editor" rows="10" placeholder="请输入问题"></textarea>
-                            <span class="input-group-btn">
+                            <textarea  class="form-control"  id="editor" name="editor" rows="10" placeholder="请输入问题"></textarea>
+
+                            <span class="input-group-btn" >
                                 <button class="btn btn-primary" type="submit" id="myButton">
                                 确认
                                 </button>
@@ -105,7 +106,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-10">
+                <div class="col-lg-8">
                     <div>
                         <textarea class="form-control" id="output"  style="height: 50px" ></textarea>
                         <script>
