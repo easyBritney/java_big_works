@@ -25,6 +25,8 @@ public class VerticalBPJsonGenerate {
         Map<String, Map<String, Integer>> data = new HashMap<>();
 
         for(BeanDrug a: drugs){
+            if(a.getBeanCrime().getArea() == null)
+                continue;
             if(data.containsKey(a.getDrugType())){
                 if(data.get(a.getDrugType()).containsKey(a.getBeanCrime().getArea())){
                     data.get(a.getDrugType()).put(a.getBeanCrime().getArea(), data.get(a.getDrugType()).get(a.getBeanCrime().getArea()) + 1);

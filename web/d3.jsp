@@ -138,10 +138,20 @@
         let local_links = [];
         let local_nodes = [];
 
-        local_nodes.push({
-            "id": "吴建中",
-            "group": 1
-        });
+        for (let i = 0; i < graph.links.length; ++i){
+            local_index = find(local_links, graph.links[i]);
+
+            if (local_index !== -1) {
+                if (local_links[local_index].relation.indexOf(graph.links[i].relation) === -1)
+                    local_links[local_index].relation = local_links[local_index].relation + "," + graph.links[i].relation;
+            }
+            else
+                local_links.push(graph.links[i]);
+
+        }
+
+        local_nodes = graph.nodes;
+
 
         let link = svg.append("g")
             .attr("class", "links")

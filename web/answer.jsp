@@ -94,7 +94,7 @@
 
                         <%--</span>--%>
                         <form method="post" action="answer.do">
-                            <input type="text" class="form-control" id="editor" name='editor' placeholder="请输入问题">
+                            <input type="text" class="form-control" id="editor" name='editor' placeholder="请输入问题" >
                             <span class="input-group-btn">
                                 <button class="btn btn-primary" type="submit" id="myButton">
                                 确认

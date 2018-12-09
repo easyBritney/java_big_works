@@ -1,4 +1,5 @@
-<%@ page import="parser.ParseToCsv" %><%--
+<%@ page import="parser.ParseToCsv" %>
+<%@ page import="java.util.Date" %><%--
   Created by IntelliJ IDEA.
   User: mac
   Date: 2018/11/20
@@ -122,6 +123,9 @@
 
             </div>
         </div>
+
+        <button id ="btn1" class="btn btn-primary col-lg-2" type="button" value="分析数据"></button>
+
     </div>
 
 
@@ -196,6 +200,12 @@
         dictDefaultMessage: "<strong>在这里删除文件或点击上传。</strong></br>请将要上传的文件放在此处"
 
     });
+
+    $("#btn1").click(function(){
+        <%ParseToCsv.parseToCsv("WEB-INF/upload/","WEB-INF/upload/csv","upload"+new Date().getTime());%>
+        alert("分析完毕");
+    });
+
 
 
 

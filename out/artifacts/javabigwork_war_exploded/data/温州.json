@@ -1,2644 +1,4188 @@
 {
   "nodes": [
     {
-      "id": "周婷婷",
-      "group": 1
+      "id": "阮岱红",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1969-04-09",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年四个月",
+      "address": "住岱山县衢山镇三星北路139号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关浙江省岱山县人民检察院",
+      "criminalCaseTime": "2018-06-11"
     },
     {
-      "id": "李军",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "蔡莉莉",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "陈慧",
-      "group": 1
+      "id": "（2017）浙0921刑初91号",
+      "group": 30
     },
     {
-      "id": "许益巧",
-      "group": 1
+      "id": "浙江省岱山县",
+      "group": 40
     },
     {
-      "id": "王明洲",
-      "group": 1
+      "id": "张志华",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪犯容留他人吸毒罪",
+      "birth": "1987-01-27",
+      "penalty": "没收财产",
+      "penaltySum": "20000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年",
+      "address": "暂住舟山市定海区盛家塘4幢100号501室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-06-19"
     },
     {
-      "id": "郑书杏",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "吴晓东",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "张海波",
-      "group": 1
+      "id": "（2018）浙0902刑初6号",
+      "group": 30
     },
     {
-      "id": "焦顺",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "李建西",
-      "group": 1
+      "id": "裘景羽",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1993-03-26",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "拘役",
+      "prisonTime": "三个月",
+      "address": "住浙江省舟山市普陀区沈家门街道长地爿路622号楼311室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-05-03"
     },
     {
-      "id": "郭尧提",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "詹洪禹",
-      "group": 1
+      "id": "高中文化",
+      "group": 20
     },
     {
-      "id": "陈邦昌",
-      "group": 1
+      "id": "（2018）浙0903刑初144号",
+      "group": 30
     },
     {
-      "id": "刘霸",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "苏虹刚",
-      "group": 1
+      "id": "许清秀",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1967-12-16",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "拘役",
+      "prisonTime": "四个月",
+      "address": "住湖北省武汉市汉阳区汉南路42号1栋6单元2楼204室",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-04-27"
     },
     {
-      "id": "刘美真",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "陈忠帅",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "张云云",
-      "group": 1
+      "id": "（2018）浙0903刑初69号",
+      "group": 30
     },
     {
-      "id": "林春敏",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "朱应章",
-      "group": 1
+      "id": "何君飞",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1983-07-02",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十个月",
+      "address": "暂住舟山市定海区临城街道中央御城25幢1504室",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-03-21"
     },
     {
-      "id": "赵建",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "黄雪丹",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "胡海宽",
-      "group": 1
+      "id": "（2018）浙0902刑初44号",
+      "group": 30
     },
     {
-      "id": "杨红",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "黄兴林",
-      "group": 1
+      "id": "方成君",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1973-06-02",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年六个月",
+      "address": "住浙江省舟山市普陀区东港街道茶壶甩村中段7号",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-01-11"
     },
     {
-      "id": "杨学英",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "徐明波辩称",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "吴志强",
-      "group": 1
+      "id": "（2017）浙0903刑初410号",
+      "group": 30
     },
     {
-      "id": "魏尧春",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "赵德建",
-      "group": 1
+      "id": "俞海杰",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1969-05-09",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "七年二个月",
+      "address": "暂住舟山市普陀区东港街道兴新园150幢302室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-03-21"
     },
     {
-      "id": "林洁",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "陈微微",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "李锡伍",
-      "group": 1
+      "id": "（2018）浙0902刑初44号",
+      "group": 30
     },
     {
-      "id": "张武",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "金可建",
-      "group": 1
+      "id": "叶挺",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1983-05-05",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十个月",
+      "address": "家住舟山市普陀区沈家门街道长地爿路630号402室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-03-21"
     },
     {
-      "id": "杨勇",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "徐明日",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "郑大稳",
-      "group": 1
+      "id": "（2018）浙0902刑初44号",
+      "group": 30
     },
     {
-      "id": "胡志明",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "陈仕晓",
-      "group": 1
+      "id": "陈良军",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1978-10-22",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八个月",
+      "address": "暂住舟山市定海区小碶北路19弄11号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-05-17"
     },
     {
-      "id": "赵义强",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "林光谣",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "林周松",
-      "group": 1
+      "id": "（2018）浙0902刑初128号",
+      "group": 30
     },
     {
-      "id": "杨国忠",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "林晓树",
-      "group": 1
+      "id": "顾平潮",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1970-10-25",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "拘役",
+      "prisonTime": "三个月",
+      "address": "住浙江省舟山市普陀区展茅街道茅洋村茅洋路60号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-02-01"
     },
     {
-      "id": "周翔",
-      "group": 1
+      "id": "渔民",
+      "group": 10
     },
     {
-      "id": "陈正波",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "林小鹏",
-      "group": 1
+      "id": "（2018）浙0903刑初15号",
+      "group": 30
     },
     {
-      "id": "范革军",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "吕建明",
-      "group": 1
+      "id": "夏良辉",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1976-02-20",
+      "penalty": "罚金",
+      "penaltySum": "20000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "九年六个月",
+      "address": "暂住舟山市定海区西园新村54幢1单元602室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-02-26"
     },
     {
-      "id": "宋向阳",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "姜永安",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "邹坛忠",
-      "group": 1
+      "id": "（2017）浙0902刑初440号",
+      "group": 30
     },
     {
-      "id": "胡津",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "陈妮",
-      "group": 1
+      "id": "黄雪南",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1968-09-10",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "拘役",
+      "prisonTime": "三个月",
+      "address": "暂住舟山市定海区小碶北路17号202室",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-01-08"
     },
     {
-      "id": "徐道杰",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "胡二娃",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "陈金喜",
-      "group": 1
+      "id": "（2017）浙0902刑初470号",
+      "group": 30
     },
     {
-      "id": "潘国忠",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "张希平",
-      "group": 1
+      "id": "张玲",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1978-01-28",
+      "penalty": "罚金",
+      "penaltySum": "20000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "九年六个月",
+      "address": "家住舟山市定海区环南街道环城南路208号11幢101室",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-02-11"
     },
     {
-      "id": "叶德宠",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "刘纪众",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "王芳",
-      "group": 1
+      "id": "（2017）浙0902刑初461号",
+      "group": 30
     },
     {
-      "id": "李小荣",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "金春花",
-      "group": 1
+      "id": "林永良",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1963-11-22",
+      "penalty": "没收财产",
+      "penaltySum": "10000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年",
+      "address": "暂住舟山市普陀区东港街道赵家岙村（舟山远大交通设施）广告牌边铁皮房",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-03-21"
     },
     {
-      "id": "金炳荣",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "黄勇",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "林德调",
-      "group": 1
+      "id": "（2018）浙0902刑初44号",
+      "group": 30
     },
     {
-      "id": "陈佳佳",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "黄明要",
-      "group": 1
+      "id": "刘双燕",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1982-02-03",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "六个月",
+      "address": "家住舟山市定海区城东街道昌东新村59幢134号201室",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-01-08"
     },
     {
-      "id": "温正行",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "杨素品",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "林奇",
-      "group": 1
+      "id": "（2017）浙0902刑初470号",
+      "group": 30
     },
     {
-      "id": "孙乾学",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "陈万松",
-      "group": 1
+      "id": "孙元斌",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1981-03-24",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年六个月",
+      "address": "住浙江省舟山市普陀区六横镇悬山中心村黄沙52号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-04-18"
     },
     {
-      "id": "黄建",
-      "group": 1
+      "id": "务工人员",
+      "group": 10
     },
     {
-      "id": "何承刚",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "韩裕辉",
-      "group": 1
+      "id": "（2018）浙0903刑初48号",
+      "group": 30
     },
     {
-      "id": "林强华",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "张善德",
-      "group": 1
+      "id": "谷世君",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1974-10-15",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年",
+      "address": "暂住舟山市定海区西园新村62幢302室",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-01-03"
     },
     {
-      "id": "杜小伟",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "张柯",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "张德杰",
-      "group": 1
+      "id": "（2017）浙0902刑初354号",
+      "group": 30
     },
     {
-      "id": "叶伟晓",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "邓伦斌",
-      "group": 1
+      "id": "虞森杰",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1973-10-24",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八年六个月",
+      "address": "暂住舟山市定海区昌国街道城隍庙前16号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-06-19"
     },
     {
-      "id": "晏伟明",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "胡斌",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "刘美华",
-      "group": 1
+      "id": "（2018）浙0902刑初6号",
+      "group": 30
     },
     {
-      "id": "陈振枢",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "张英孙",
-      "group": 1
+      "id": "胡慧琼",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪犯容留他人吸毒罪",
+      "birth": "1972-04-01",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "六个月",
+      "address": "住舟山市定海区昌国街道城隍庙前16号",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-06-19"
     },
     {
-      "id": "陈章贵",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "陈秉国",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "吴建中",
-      "group": 1
+      "id": "（2018）浙0902刑初6号",
+      "group": 30
     },
     {
-      "id": "车林",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "徐志建",
-      "group": 1
+      "id": "姚佳辰",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1993-02-19",
+      "penalty": "罚金",
+      "penaltySum": "20000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八年",
+      "address": "住舟山市定海区阳光新境10幢车库",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-05-07"
     },
     {
-      "id": "陈金成",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "章海峰",
-      "group": 1
+      "id": "高中文化",
+      "group": 20
     },
     {
-      "id": "包春慧",
-      "group": 1
+      "id": "（2018）浙0902刑初52号",
+      "group": 30
     },
     {
-      "id": "陈蒙发",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "蔡传余",
-      "group": 1
+      "id": "王文彬",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1986-12-15",
+      "penalty": "罚金",
+      "penaltySum": "30000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十一年",
+      "address": "住舟山市定海区人民南路2幢302室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-05-07"
     },
     {
-      "id": "邱忠义",
-      "group": 1
+      "id": "务工",
+      "group": 10
     },
     {
-      "id": "刘本均",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "杨守力",
-      "group": 1
+      "id": "（2018）浙0902刑初52号",
+      "group": 30
     },
     {
-      "id": "胡传龙",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "吴奎昌",
-      "group": 1
+      "id": "金可",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1984-03-23",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "六个月",
+      "address": "住浙江省岱山县东沙镇生产岙6号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-03-08"
     },
     {
-      "id": "应建设",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "梁君臣",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "祁向东",
-      "group": 1
+      "id": "（2018）浙0903刑初46号",
+      "group": 30
     },
     {
-      "id": "郭建飞",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "包哲溪",
-      "group": 1
+      "id": "王其雷",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪犯赌博罪",
+      "birth": "1983-03-11",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年二个月",
+      "address": "暂住舟山市定海区云枫苑1幢2单元204室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-02-26"
     },
     {
-      "id": "李发良",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "夏浩静",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "邹亮",
-      "group": 1
+      "id": "（2017）浙0902刑初440号",
+      "group": 30
     },
     {
-      "id": "戴建开",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "饶菊",
-      "group": 1
+      "id": "闻张平",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1982-09-08",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十个月",
+      "address": "住舟山市定海区白泉镇南山下路70号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-06-19"
     },
     {
-      "id": "陈忠满",
-      "group": 1
+      "id": "务工",
+      "group": 10
     },
     {
-      "id": "幸奠奎",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "叶建军",
-      "group": 1
+      "id": "（2018）浙0902刑初6号",
+      "group": 30
     },
     {
-      "id": "何桂成",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "周朝兴",
-      "group": 1
+      "id": "王迪",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1982-08-14",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年二个月",
+      "address": "住浙江省舟山市普陀区沈家门街道北安路229号302室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-04-18"
     },
     {
-      "id": "陈成伟",
-      "group": 1
+      "id": "务工人员",
+      "group": 10
     },
     {
-      "id": "吴景冬",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "谢少敏",
-      "group": 1
+      "id": "（2018）浙0903刑初48号",
+      "group": 30
     },
     {
-      "id": "陈剑",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "邵伟",
-      "group": 1
+      "id": "朱伟斌",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1969-02-11",
+      "penalty": "没收财产",
+      "penaltySum": "80000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年",
+      "address": "暂住舟山市定海区西园新村62幢302室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-01-03"
     },
     {
-      "id": "董利前",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "林成勇",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "洪爱娟",
-      "group": 1
+      "id": "（2017）浙0902刑初354号",
+      "group": 30
     },
     {
-      "id": "黄成斌",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "胡志财",
-      "group": 1
+      "id": "孙永杰",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1988-10-13",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十三年",
+      "address": "住舟山市普陀区展茅街道上潘孙村启元路22号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-06-19"
     },
     {
-      "id": "朱永建",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "廖晓英",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "张云涛",
-      "group": 1
+      "id": "（2018）浙0902刑初6号",
+      "group": 30
     },
     {
-      "id": "潘太朝",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "吴东俊",
-      "group": 1
+      "id": "苏俊烈",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1970-06-05",
+      "penalty": "没收财产",
+      "penaltySum": "15000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年",
+      "address": "暂住舟山市定海区黄土岭村香柳井68号三楼-1",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-06-19"
     },
     {
-      "id": "明兴",
-      "group": 1
+      "id": "务工",
+      "group": 10
     },
     {
-      "id": "游龙飞",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "姜林",
-      "group": 1
+      "id": "（2018）浙0902刑初6号",
+      "group": 30
     },
     {
-      "id": "方学该",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "郑英博",
-      "group": 1
+      "id": "侯瑜杰",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1991-09-13",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "六个月",
+      "address": "暂住舟山市定海区青岭路29号303室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-06-08"
     },
     {
-      "id": "陈孙建",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "陈平",
-      "group": 1
+      "id": "大专文化",
+      "group": 20
     },
     {
-      "id": "吴常顺",
-      "group": 1
+      "id": "（2018）浙0902刑初149号",
+      "group": 30
     },
     {
-      "id": "金立华",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "彭小丹",
-      "group": 1
+      "id": "陈绍勤",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1963-08-18",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十个月",
+      "address": "住舟山市定海区城市新境11幢102室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-01-03"
     },
     {
-      "id": "郑国游",
-      "group": 1
+      "id": "舟山港综合保税区中贸石油化工有限公司法定代表人",
+      "group": 10
     },
     {
-      "id": "廖志远",
-      "group": 1
+      "id": "高中文化",
+      "group": 20
     },
     {
-      "id": "洪玉钢",
-      "group": 1
+      "id": "（2017）浙0902刑初354号",
+      "group": 30
     },
     {
-      "id": "宁钦",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "黄光兵",
-      "group": 1
+      "id": "杨涛",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1986-09-09",
+      "penalty": "没收财产",
+      "penaltySum": "20000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年",
+      "address": "住四川省新津县五津镇桥津下街207号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关嵊泗县人民检察院",
+      "criminalCaseTime": "2018-03-21"
     },
     {
-      "id": "王明山",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "许亮智",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "高长富",
-      "group": 1
+      "id": "（2017）浙0922刑初32号",
+      "group": 30
     },
     {
-      "id": "张孝检",
-      "group": 1
+      "id": "嵊泗县",
+      "group": 40
     },
     {
-      "id": "叶骏",
-      "group": 1
+      "id": "夏汉平",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1972-04-26",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十个月",
+      "address": "家住舟山市定海区岑港街道湾里29号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-01-03"
     },
     {
-      "id": "徐明波",
-      "group": 1
+      "id": "务工",
+      "group": 10
     },
     {
-      "id": "卢银杰",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "叶洪超",
-      "group": 1
+      "id": "（2017）浙0902刑初354号",
+      "group": 30
     },
     {
-      "id": "傅化浩",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "余圣旺",
-      "group": 1
+      "id": "凃玉彩",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1979-07-10",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "六个月",
+      "address": "住云南省文山壮族苗族自治州富宁县归朝镇百油村民委云灯小组",
+      "sex": "女",
+      "nation": "瑶族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-01-19"
     },
     {
-      "id": "余如梅",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "瞿元",
-      "group": 1
+      "id": "文盲",
+      "group": 20
     },
     {
-      "id": "杜帅帅",
-      "group": 1
+      "id": "（2017）浙0903刑初367号",
+      "group": 30
     },
     {
-      "id": "倪建乐",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "吴晓峰",
-      "group": 1
+      "id": "韩伟",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1991-07-17",
+      "penalty": "罚金",
+      "penaltySum": "15000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年",
+      "address": "住四川省剑阁县元山镇白坝村4组9号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-06-19"
     },
     {
-      "id": "冯建成",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "胡洪志",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "金长存",
-      "group": 1
+      "id": "（2018）浙0902刑初6号",
+      "group": 30
     },
     {
-      "id": "李文铭",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "徐伟钦",
-      "group": 1
+      "id": "范美菊",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪犯容留他人吸毒罪",
+      "birth": "1957-06-03",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年六个月",
+      "address": "住浙江省舟山市普陀区沈家门街道健民路30号203室",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-04-18"
     },
     {
-      "id": "舒富贵",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "王玲",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "王益锋",
-      "group": 1
+      "id": "（2018）浙0903刑初48号",
+      "group": 30
     },
     {
-      "id": "叶昌盛",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "郑祥志",
-      "group": 1
+      "id": "刘坤",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1982-01-05",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年二个月",
+      "address": "暂住舟山市定海区碧水蓝天2幢一单元202室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-01-03"
     },
     {
-      "id": "刘建山",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "王霜霜",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "胡国强",
-      "group": 1
+      "id": "（2017）浙0902刑初355号",
+      "group": 30
     },
     {
-      "id": "王俊",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "黎进财",
-      "group": 1
+      "id": "袁兆麒",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1987-07-17",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八个月",
+      "address": "家住舟山市定海区金塘镇牛皮岭下8号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-05-07"
     },
     {
-      "id": "黄永革",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "吴再斌",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "满云昌",
-      "group": 1
+      "id": "（2018）浙0902刑初52号",
+      "group": 30
     },
     {
-      "id": "肖卫",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "谭宜继",
-      "group": 1
+      "id": "徐健杰",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪犯容留他人吸毒罪",
+      "birth": "1988-10-18",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年",
+      "address": "现住浙江省舟山市普陀区沈家门街道鲁川路47号海城铭园28幢505室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-06-27"
     },
     {
-      "id": "施久华",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "王强华",
-      "group": 1
+      "id": "大专文化",
+      "group": 20
     },
     {
-      "id": "黄振华",
-      "group": 1
+      "id": "（2018）浙0903刑初170号",
+      "group": 30
     },
     {
-      "id": "李恩记",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "舒文",
-      "group": 1
+      "id": "陈永泽",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1977-03-18",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "二年八个月",
+      "address": "住广东省阳江市江城区平冈镇黄村村委会垅尾村中巷24号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-01-19"
     },
     {
-      "id": "胡永银",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "蔡慈德",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "颜艳艳",
-      "group": 1
+      "id": "（2017）浙0903刑初367号",
+      "group": 30
     },
     {
-      "id": "林昌高",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "邹启卫",
-      "group": 1
+      "id": "应岳波",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1981-04-25",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年",
+      "address": "暂住舟山市定海区名竹苑12幢1单元302室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-02-26"
     },
     {
-      "id": "胡平",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "王进",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "梅纯冰",
-      "group": 1
+      "id": "（2017）浙0902刑初440号",
+      "group": 30
     },
     {
-      "id": "方高钰",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "应良宫",
-      "group": 1
+      "id": "朱玉芹",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1973-11-06",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十个月",
+      "address": "住舟山市定海区金塘镇沥港镇府路42号",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-02-11"
     },
     {
-      "id": "林松鸽",
-      "group": 1
+      "id": "个体司机",
+      "group": 10
     },
     {
-      "id": "朱梓垚",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "赵建余",
-      "group": 1
+      "id": "（2017）浙0902刑初461号",
+      "group": 30
     },
     {
-      "id": "王晓龙",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "陈世国",
-      "group": 1
+      "id": "郑丹洁",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1984-05-31",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年六个月",
+      "address": "住浙江省舟山市普陀区六横镇小湖村小湖260号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-05-01"
     },
     {
-      "id": "孙约西",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "张松光",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "谷玉莲",
-      "group": 1
+      "id": "（2018）浙0903刑初92号",
+      "group": 30
     },
     {
-      "id": "谭书灿",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "陈于健",
-      "group": 1
+      "id": "舒群主",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1965-08-27",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十个月",
+      "address": "住舟山市定海区西园新村78幢503室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-01-03"
     },
     {
-      "id": "唐小秋",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "余列英",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "林文华",
-      "group": 1
+      "id": "（2017）浙0902刑初355号",
+      "group": 30
     },
     {
-      "id": "张自明",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "熊义",
-      "group": 1
+      "id": "徐祥法",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1975-03-14",
+      "penalty": "没收财产",
+      "penaltySum": "30000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年",
+      "address": "住舟山市定海区岑港街道西岙102号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-06-19"
     },
     {
-      "id": "田远坤",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "林德正",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "潘剑",
-      "group": 1
+      "id": "（2018）浙0902刑初6号",
+      "group": 30
     },
     {
-      "id": "牟秀彬",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "林甲超",
-      "group": 1
+      "id": "吴运琴",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1982-06-27",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "拘役",
+      "prisonTime": "四个月",
+      "address": "住浙江省舟山市普陀区沈家门街道北安路151弄14号503室",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-02-01"
     },
     {
-      "id": "蓝罗仕",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "杨瑞",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "詹小凤",
-      "group": 1
+      "id": "（2018）浙0903刑初15号",
+      "group": 30
     },
     {
-      "id": "黄如霞",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "屠文微",
-      "group": 1
+      "id": "吕思强",
+      "group": 1,
+      "crimeType": "犯非法持有毒品罪",
+      "birth": "1972-09-02",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年八个月",
+      "address": "捕前暂住浙江省岱山县高亭镇剧院弄57号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关浙江省岱山县人民检察院",
+      "criminalCaseTime": "2018-02-13"
     },
     {
-      "id": "吴来盛",
-      "group": 1
+      "id": "个体经营",
+      "group": 10
     },
     {
-      "id": "黄建乐",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "卢孔派",
-      "group": 1
+      "id": "（2018）浙0921刑初10号",
+      "group": 30
     },
     {
-      "id": "赵峰",
-      "group": 1
+      "id": "浙江省岱山县",
+      "group": 40
     },
     {
-      "id": "苏志淡",
-      "group": 1
+      "id": "叶辉",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1975-01-20",
+      "penalty": "没收财产",
+      "penaltySum": "70000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年",
+      "address": "住舟山市定海区昌国街道总府路15幢一单元506室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-01-03"
     },
     {
-      "id": "郑海利",
-      "group": 1
+      "id": "中国人民解放军第4806工厂工人",
+      "group": 10
     },
     {
-      "id": "陈焕艺",
-      "group": 1
+      "id": "高中文化",
+      "group": 20
     },
     {
-      "id": "肖荣发",
-      "group": 1
+      "id": "（2017）浙0902刑初354号",
+      "group": 30
     },
     {
-      "id": "罗兴奎",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "邓姣姣",
-      "group": 1
+      "id": "宋文军",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1975-08-23",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八年",
+      "address": "暂住舟山市定海区西园新村78幢503室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-01-03"
     },
     {
-      "id": "吴建忠",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "张荣华",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "陈加驹",
-      "group": 1
+      "id": "（2017）浙0902刑初355号",
+      "group": 30
     },
     {
-      "id": "周军强",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "郑波",
-      "group": 1
+      "id": "童和平",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1958-02-15",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "二年六个月",
+      "address": "住嵊泗县菜园镇祥瑞弄1号-A",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关嵊泗县人民检察院",
+      "criminalCaseTime": "2018-05-25"
     },
     {
-      "id": "胡寿均",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "周进海",
-      "group": 1
+      "id": "初小文化",
+      "group": 20
     },
     {
-      "id": "郭超",
-      "group": 1
+      "id": "(2018)浙0922刑初13号",
+      "group": 30
     },
     {
-      "id": "叶加龙",
-      "group": 1
+      "id": "嵊泗县",
+      "group": 40
     },
     {
-      "id": "陈宇",
-      "group": 1
+      "id": "胡少",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1985-10-09",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "二年",
+      "address": "住舟山市定海区环南街道环城东路130号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-06-19"
     },
     {
-      "id": "林苗",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "缪丹丹",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "郝金阳",
-      "group": 1
+      "id": "（2018）浙0902刑初6号",
+      "group": 30
     },
     {
-      "id": "陈彩平",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "刘祝生",
-      "group": 1
+      "id": "柴芬芬",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1980-11-17",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "拘役",
+      "prisonTime": "四个月",
+      "address": "住岱山县高亭镇顺福路111号302室",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关浙江省岱山县人民检察院",
+      "criminalCaseTime": "2018-01-11"
     },
     {
-      "id": "陈海勇",
-      "group": 1
+      "id": "个体",
+      "group": 10
     },
     {
-      "id": "王晓芬",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "陈德锋",
-      "group": 1
+      "id": "（2018）浙0921刑初4号",
+      "group": 30
     },
     {
-      "id": "吴小平",
-      "group": 1
+      "id": "浙江省岱山县",
+      "group": 40
     },
     {
-      "id": "邱波",
-      "group": 1
+      "id": "刘高波",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1978-09-14",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年",
+      "address": "住浙江省嵊泗县黄龙乡北石弄63号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关嵊泗县人民检察院",
+      "criminalCaseTime": "2018-05-25"
     },
     {
-      "id": "黄瑞国",
-      "group": 1
+      "id": "渔民",
+      "group": 10
     },
     {
-      "id": "徐小燕",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "高启海",
-      "group": 1
+      "id": "(2018)浙0922刑初13号",
+      "group": 30
     },
     {
-      "id": "黄梅",
-      "group": 1
+      "id": "嵊泗县",
+      "group": 40
     },
     {
-      "id": "张远江",
-      "group": 1
+      "id": "谢晓珍",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1967-10-01",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年六个月",
+      "address": "暂住舟山市定海区世贸大酒店对面出租房505室",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-05-14"
     },
     {
-      "id": "黄锡杰",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "刘兵",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "黄财余",
-      "group": 1
+      "id": "（2018）浙0902刑初106号",
+      "group": 30
     },
     {
-      "id": "张兴",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "王小元",
-      "group": 1
+      "id": "李金法",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪犯容留他人吸毒罪",
+      "birth": "1984-09-05",
+      "penalty": "罚金",
+      "penaltySum": "4000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年二个月",
+      "address": "住云南省文山壮族苗族自治州富宁县归朝镇百油村民委云灯小组",
+      "sex": "男",
+      "nation": "瑶族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-01-19"
     },
     {
-      "id": "黄志坪",
-      "group": 1
+      "id": "务工人员",
+      "group": 10
     },
     {
-      "id": "叶大泽",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "黄挣意",
-      "group": 1
+      "id": "（2017）浙0903刑初367号",
+      "group": 30
     },
     {
-      "id": "张青银",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "章克炮",
-      "group": 1
+      "id": "翁伟仁",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1965-07-21",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "拘役",
+      "prisonTime": "三个月",
+      "address": "住浙江省舟山市普陀区展茅街道螺门村中心路999号-9",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-06-27"
     },
     {
-      "id": "应林丽",
-      "group": 1
+      "id": "个体经营者",
+      "group": 10
     },
     {
-      "id": "陈贤钏",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "王祥德",
-      "group": 1
+      "id": "（2018）浙0903刑初125号",
+      "group": 30
     },
     {
-      "id": "何建峰",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "杨飚",
-      "group": 1
+      "id": "朱忠道",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1963-06-09",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年",
+      "address": "捕前住浙江省舟山市定海区檀香小区41幢104车棚",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关浙江省岱山县人民检察院",
+      "criminalCaseTime": "2018-03-26"
     },
     {
-      "id": "郑鸥涨",
-      "group": 1
+      "id": "个体",
+      "group": 10
     },
     {
-      "id": "陈云波",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "陈亦鹏",
-      "group": 1
+      "id": "（2018）浙0921刑初19号",
+      "group": 30
     },
     {
-      "id": "苏旭钧",
-      "group": 1
+      "id": "浙江省岱山县",
+      "group": 40
     },
     {
-      "id": "张在盛",
-      "group": 1
+      "id": "倪国涌",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1967-02-02",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年",
+      "address": "暂住舟山市定海区东港新村24幢",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-02-26"
     },
     {
-      "id": "陈启红",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "蔡成志",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "杨远阳",
-      "group": 1
+      "id": "（2017）浙0902刑初440号",
+      "group": 30
     },
     {
-      "id": "金扬信",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "吴华义",
-      "group": 1
+      "id": "李英",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1985-12-27",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年",
+      "address": "捕前租住嵊泗县菜园镇东惠民弄34号",
+      "sex": "女",
+      "nation": "苗族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关嵊泗县人民检察院",
+      "criminalCaseTime": "2018-01-03"
     },
     {
-      "id": "缪茂起",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "章杨英",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "陈小平",
-      "group": 1
+      "id": "(2017)浙0922刑初55号",
+      "group": 30
     },
     {
-      "id": "叶家平",
-      "group": 1
+      "id": "嵊泗县",
+      "group": 40
     },
     {
-      "id": "刘燕",
-      "group": 1
+      "id": "陈佳喜",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1977-11-11",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八年",
+      "address": "暂住舟山市定海区西园新村78幢503室",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-01-03"
     },
     {
-      "id": "谢庆勇",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "张立刚",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "陈显庶",
-      "group": 1
+      "id": "（2017）浙0902刑初355号",
+      "group": 30
     },
     {
-      "id": "黄海兵",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "林庆权",
-      "group": 1
+      "id": "张庆碧",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1975-04-17",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "四年六个月",
+      "address": "住贵州省金沙县五龙街道新坝村松林组",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-04-27"
     },
     {
-      "id": "张好平",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "饶正林",
-      "group": 1
+      "id": "初中文化",
+      "group": 20
     },
     {
-      "id": "邱定磊",
-      "group": 1
+      "id": "（2018）浙0903刑初22号",
+      "group": 30
     },
     {
-      "id": "陈上海",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "王伟州",
-      "group": 1
+      "id": "张传通",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1963-01-29",
+      "penalty": "罚金",
+      "penaltySum": "8000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八年",
+      "address": "暂住舟山市定海区桔园北区18A幢1号1楼车棚",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-03-02"
     },
     {
-      "id": "侯百康",
-      "group": 1
+      "id": "无业",
+      "group": 10
     },
     {
-      "id": "郑怀周",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "毛传敏",
-      "group": 1
+      "id": "（2017）浙0902刑初450号",
+      "group": 30
     },
     {
-      "id": "范玉均",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     },
     {
-      "id": "薛永强",
-      "group": 1
+      "id": "贺波",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1971-06-07",
+      "penalty": "罚金",
+      "penaltySum": "10000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八年",
+      "address": "住浙江省舟山市普陀区六横镇悬山中心村连山湾29号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市普陀区人民检察院",
+      "criminalCaseTime": "2018-03-16"
     },
     {
-      "id": "陈康谱",
-      "group": 1
+      "id": "务工人员",
+      "group": 10
     },
     {
-      "id": "朱代国",
-      "group": 1
+      "id": "小学文化",
+      "group": 20
     },
     {
-      "id": "罗惜盆",
-      "group": 1
+      "id": "（2018）浙0903刑初37号",
+      "group": 30
     },
     {
-      "id": "万晓玉",
-      "group": 1
+      "id": "舟山市普陀区",
+      "group": 40
     },
     {
-      "id": "陈万新",
-      "group": 1
+      "id": "张忠华",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1956-09-16",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "缓刑",
+      "prisonTime": "一年",
+      "address": "住舟山市定海区金塘镇海景花园一期2幢2号",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null",
+      "criminalProcura": "公诉机关舟山市定海区人民检察院",
+      "criminalCaseTime": "2018-02-11"
     },
     {
-      "id": "张宝顺",
-      "group": 1
+      "id": "个体捕鱼",
+      "group": 10
     },
     {
-      "id": "杨道将",
-      "group": 1
+      "id": "文盲",
+      "group": 20
     },
     {
-      "id": "王长寿",
-      "group": 1
+      "id": "（2017）浙0902刑初461号",
+      "group": 30
     },
     {
-      "id": "胡寅熠",
-      "group": 1
-    },
-    {
-      "id": "钱凯豪",
-      "group": 1
-    },
-    {
-      "id": "李向军",
-      "group": 1
-    },
-    {
-      "id": "廖小山",
-      "group": 1
-    },
-    {
-      "id": "黄淳晨",
-      "group": 1
-    },
-    {
-      "id": "林建克",
-      "group": 1
-    },
-    {
-      "id": "邓发亮",
-      "group": 1
-    },
-    {
-      "id": "蒋业",
-      "group": 1
-    },
-    {
-      "id": "彭家强",
-      "group": 1
-    },
-    {
-      "id": "胡耀剑",
-      "group": 1
-    },
-    {
-      "id": "余蓉蓉",
-      "group": 1
-    },
-    {
-      "id": "赖登汪",
-      "group": 1
-    },
-    {
-      "id": "叶阿爱",
-      "group": 1
-    },
-    {
-      "id": "易小孩",
-      "group": 1
-    },
-    {
-      "id": "方建勇",
-      "group": 1
-    },
-    {
-      "id": "李明包",
-      "group": 1
-    },
-    {
-      "id": "陈祥金",
-      "group": 1
-    },
-    {
-      "id": "程曼曼",
-      "group": 1
-    },
-    {
-      "id": "潘林娒",
-      "group": 1
-    },
-    {
-      "id": "吴泉",
-      "group": 1
-    },
-    {
-      "id": "邵建敏",
-      "group": 1
-    },
-    {
-      "id": "徐国星",
-      "group": 1
-    },
-    {
-      "id": "姚培培",
-      "group": 1
-    },
-    {
-      "id": "张丹丹",
-      "group": 1
-    },
-    {
-      "id": "陈玉美",
-      "group": 1
-    },
-    {
-      "id": "许益都",
-      "group": 1
-    },
-    {
-      "id": "林日明",
-      "group": 1
-    },
-    {
-      "id": "刘剑",
-      "group": 1
-    },
-    {
-      "id": "侯兴锋",
-      "group": 1
-    },
-    {
-      "id": "叶月明",
-      "group": 1
-    },
-    {
-      "id": "高元超",
-      "group": 1
-    },
-    {
-      "id": "赵威",
-      "group": 1
-    },
-    {
-      "id": "叶文邦",
-      "group": 1
-    },
-    {
-      "id": "杨军",
-      "group": 1
-    },
-    {
-      "id": "朱式锋",
-      "group": 1
-    },
-    {
-      "id": "潘俊怡",
-      "group": 1
-    },
-    {
-      "id": "林冷双",
-      "group": 1
-    },
-    {
-      "id": "陈皓峰",
-      "group": 1
-    },
-    {
-      "id": "谷瑞松",
-      "group": 1
-    },
-    {
-      "id": "王占斌",
-      "group": 1
-    },
-    {
-      "id": "戴银珑",
-      "group": 1
-    },
-    {
-      "id": "徐春水",
-      "group": 1
-    },
-    {
-      "id": "潘洪兵",
-      "group": 1
-    },
-    {
-      "id": "王祁勤",
-      "group": 1
-    },
-    {
-      "id": "张空",
-      "group": 1
-    },
-    {
-      "id": "林声远",
-      "group": 1
-    },
-    {
-      "id": "段昭焕",
-      "group": 1
-    },
-    {
-      "id": "姚凯",
-      "group": 1
-    },
-    {
-      "id": "易礼强",
-      "group": 1
-    },
-    {
-      "id": "杨小林",
-      "group": 1
-    },
-    {
-      "id": "叶金荣",
-      "group": 1
-    },
-    {
-      "id": "卢多多",
-      "group": 1
-    },
-    {
-      "id": "董文龙",
-      "group": 1
-    },
-    {
-      "id": "李晓霞",
-      "group": 1
-    },
-    {
-      "id": "吴崇伟",
-      "group": 1
-    },
-    {
-      "id": "何晋焱",
-      "group": 1
-    },
-    {
-      "id": "张力",
-      "group": 1
-    },
-    {
-      "id": "倪智进",
-      "group": 1
-    },
-    {
-      "id": "洪方雄",
-      "group": 1
-    },
-    {
-      "id": "李银蕊",
-      "group": 1
-    },
-    {
-      "id": "刘阿梅",
-      "group": 1
-    },
-    {
-      "id": "袁俊",
-      "group": 1
-    },
-    {
-      "id": "刘盛军",
-      "group": 1
-    },
-    {
-      "id": "舒美仁",
-      "group": 1
-    },
-    {
-      "id": "刘红",
-      "group": 1
-    },
-    {
-      "id": "倪再银",
-      "group": 1
-    },
-    {
-      "id": "敖开洪",
-      "group": 1
-    },
-    {
-      "id": "毛晓洁",
-      "group": 1
-    },
-    {
-      "id": "郑义",
-      "group": 1
-    },
-    {
-      "id": "黄川",
-      "group": 1
-    },
-    {
-      "id": "谢连成",
-      "group": 1
-    },
-    {
-      "id": "罗华景",
-      "group": 1
-    },
-    {
-      "id": "叶春凤",
-      "group": 1
-    },
-    {
-      "id": "张自豪",
-      "group": 1
-    },
-    {
-      "id": "蒋来来",
-      "group": 1
-    },
-    {
-      "id": "戴陈利",
-      "group": 1
-    },
-    {
-      "id": "谢卫",
-      "group": 1
-    },
-    {
-      "id": "谢国兴",
-      "group": 1
-    },
-    {
-      "id": "田仁发",
-      "group": 1
-    },
-    {
-      "id": "雷丽华",
-      "group": 1
-    },
-    {
-      "id": "董加敏",
-      "group": 1
-    },
-    {
-      "id": "徐洲",
-      "group": 1
-    },
-    {
-      "id": "陈洁",
-      "group": 1
-    },
-    {
-      "id": "胡亭亭",
-      "group": 1
-    },
-    {
-      "id": "叶章华",
-      "group": 1
-    },
-    {
-      "id": "李东锋",
-      "group": 1
-    },
-    {
-      "id": "周召建",
-      "group": 1
-    },
-    {
-      "id": "赵义红",
-      "group": 1
-    },
-    {
-      "id": "韦克宁",
-      "group": 1
-    },
-    {
-      "id": "连俊",
-      "group": 1
-    },
-    {
-      "id": "杨刚",
-      "group": 1
-    },
-    {
-      "id": "连乐斌",
-      "group": 1
-    },
-    {
-      "id": "金节红",
-      "group": 1
-    },
-    {
-      "id": "谭洪胜",
-      "group": 1
-    },
-    {
-      "id": "林国富",
-      "group": 1
-    },
-    {
-      "id": "王凯",
-      "group": 1
-    },
-    {
-      "id": "林小芳",
-      "group": 1
-    },
-    {
-      "id": "张曦",
-      "group": 1
-    },
-    {
-      "id": "李耀平",
-      "group": 1
-    },
-    {
-      "id": "李哨平",
-      "group": 1
-    },
-    {
-      "id": "杨美芳",
-      "group": 1
-    },
-    {
-      "id": "陈尧波",
-      "group": 1
-    },
-    {
-      "id": "张佐波",
-      "group": 1
-    },
-    {
-      "id": "易新蓉",
-      "group": 1
-    },
-    {
-      "id": "林祥祥",
-      "group": 1
-    },
-    {
-      "id": "鲍选靖",
-      "group": 1
-    },
-    {
-      "id": "瞿毅",
-      "group": 1
-    },
-    {
-      "id": "严逍遥",
-      "group": 1
-    },
-    {
-      "id": "徐象权",
-      "group": 1
-    },
-    {
-      "id": "刘苹",
-      "group": 1
-    },
-    {
-      "id": "王成",
-      "group": 1
-    },
-    {
-      "id": "巫茂阳",
-      "group": 1
-    },
-    {
-      "id": "黄晓宽",
-      "group": 1
-    },
-    {
-      "id": "杨世聪",
-      "group": 1
-    },
-    {
-      "id": "叶盛达",
-      "group": 1
-    },
-    {
-      "id": "周航示",
-      "group": 1
-    },
-    {
-      "id": "应颂键",
-      "group": 1
-    },
-    {
-      "id": "邬智卫",
-      "group": 1
-    },
-    {
-      "id": "吴道其",
-      "group": 1
-    },
-    {
-      "id": "张小军",
-      "group": 1
-    },
-    {
-      "id": "蔡建胜",
-      "group": 1
-    },
-    {
-      "id": "王少彩",
-      "group": 1
+      "id": "舟山市定海区",
+      "group": 40
     }
   ],
   "links": [
     {
-      "source": "张荣华",
-      "target": "徐志建",
+      "source": "阮岱红",
+      "target": "无业",
       "value": 40,
-      "relation": "伙同"
+      "relation": "工作"
     },
     {
-      "source": "徐志建",
-      "target": "张荣华",
+      "source": "阮岱红",
+      "target": "小学文化",
       "value": 40,
-      "relation": "是"
+      "relation": "文化程度"
     },
     {
-      "source": "张荣华",
-      "target": "徐志建",
+      "source": "阮岱红",
+      "target": "（2017）浙0921刑初91号",
       "value": 40,
-      "relation": "伙同"
+      "relation": "文化程度"
     },
     {
-      "source": "吴建中",
-      "target": "李哨平",
+      "source": "阮岱红",
+      "target": "浙江省岱山县",
       "value": 40,
-      "relation": "交由"
+      "relation": "文化程度"
     },
     {
-      "source": "李哨平",
-      "target": "吴建中",
+      "source": "张志华",
+      "target": "无业",
       "value": 40,
-      "relation": "抓获"
+      "relation": "工作"
     },
     {
-      "source": "李哨平",
-      "target": "吴建中",
+      "source": "张志华",
+      "target": "初中文化",
       "value": 40,
-      "relation": "出"
+      "relation": "文化程度"
     },
     {
-      "source": "李哨平",
-      "target": "吴建中",
+      "source": "张志华",
+      "target": "（2018）浙0902刑初6号",
       "value": 40,
-      "relation": "减轻"
+      "relation": "文化程度"
     },
     {
-      "source": "吴建中",
-      "target": "李哨平",
+      "source": "张志华",
+      "target": "舟山市定海区",
       "value": 40,
-      "relation": "没收"
+      "relation": "文化程度"
     },
     {
-      "source": "吴建中",
-      "target": "李哨平",
+      "source": "裘景羽",
+      "target": "无业",
       "value": 40,
-      "relation": "交由"
+      "relation": "工作"
     },
     {
-      "source": "李哨平",
-      "target": "吴建中",
+      "source": "裘景羽",
+      "target": "高中文化",
       "value": 40,
-      "relation": "携带"
+      "relation": "文化程度"
     },
     {
-      "source": "李哨平",
-      "target": "吴建中",
+      "source": "裘景羽",
+      "target": "（2018）浙0903刑初144号",
       "value": 40,
-      "relation": "抓获"
+      "relation": "文化程度"
     },
     {
-      "source": "李哨平",
-      "target": "吴建中",
+      "source": "裘景羽",
+      "target": "舟山市普陀区",
       "value": 40,
-      "relation": "出"
+      "relation": "文化程度"
     },
     {
-      "source": "潘国忠",
-      "target": "黄成斌",
+      "source": "许清秀",
+      "target": "无业",
       "value": 40,
-      "relation": "容留"
+      "relation": "工作"
     },
     {
-      "source": "林甲超",
-      "target": "周翔",
+      "source": "许清秀",
+      "target": "初中文化",
       "value": 40,
-      "relation": "卖"
+      "relation": "文化程度"
     },
     {
-      "source": "林甲超",
-      "target": "周翔",
+      "source": "许清秀",
+      "target": "（2018）浙0903刑初69号",
       "value": 40,
-      "relation": "卖"
+      "relation": "文化程度"
     },
     {
-      "source": "周翔",
-      "target": "潘俊怡",
+      "source": "许清秀",
+      "target": "舟山市普陀区",
       "value": 40,
-      "relation": "拘役"
+      "relation": "文化程度"
     },
     {
-      "source": "杜小伟",
-      "target": "胡斌",
+      "source": "何君飞",
+      "target": "无业",
       "value": 40,
-      "relation": "明知"
+      "relation": "工作"
     },
     {
-      "source": "杜小伟",
-      "target": "胡斌",
+      "source": "何君飞",
+      "target": "初中文化",
       "value": 40,
-      "relation": "明知"
+      "relation": "文化程度"
     },
     {
-      "source": "胡斌",
-      "target": "杜小伟",
+      "source": "何君飞",
+      "target": "（2018）浙0902刑初44号",
       "value": 40,
-      "relation": "提"
+      "relation": "文化程度"
     },
     {
-      "source": "杜小伟",
-      "target": "胡斌",
+      "source": "何君飞",
+      "target": "舟山市定海区",
       "value": 40,
-      "relation": "明知"
+      "relation": "文化程度"
     },
     {
-      "source": "杜小伟",
-      "target": "胡斌",
+      "source": "方成君",
+      "target": "无业",
       "value": 40,
-      "relation": "明知"
+      "relation": "工作"
     },
     {
-      "source": "刘苹",
-      "target": "郑英博",
+      "source": "方成君",
+      "target": "初中文化",
       "value": 40,
-      "relation": "明知"
+      "relation": "文化程度"
     },
     {
-      "source": "郑英博",
-      "target": "戴银珑",
+      "source": "方成君",
+      "target": "（2017）浙0903刑初410号",
       "value": 40,
-      "relation": "伙同"
+      "relation": "文化程度"
     },
     {
-      "source": "戴银珑",
-      "target": "郑英博",
+      "source": "方成君",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "俞海杰",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "俞海杰",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "俞海杰",
+      "target": "（2018）浙0902刑初44号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "俞海杰",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "叶挺",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "叶挺",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "叶挺",
+      "target": "（2018）浙0902刑初44号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "叶挺",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "陈良军",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "陈良军",
+      "target": "小学文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "陈良军",
+      "target": "（2018）浙0902刑初128号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "陈良军",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "顾平潮",
+      "target": "渔民",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "顾平潮",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "顾平潮",
+      "target": "（2018）浙0903刑初15号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "顾平潮",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "夏良辉",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "夏良辉",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "夏良辉",
+      "target": "（2017）浙0902刑初440号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "夏良辉",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "黄雪南",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "黄雪南",
+      "target": "小学文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "黄雪南",
+      "target": "（2017）浙0902刑初470号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "黄雪南",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "张玲",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "张玲",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "张玲",
+      "target": "（2017）浙0902刑初461号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "张玲",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "林永良",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "林永良",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "林永良",
+      "target": "（2018）浙0902刑初44号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "林永良",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "刘双燕",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "刘双燕",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "刘双燕",
+      "target": "（2017）浙0902刑初470号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "刘双燕",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "孙元斌",
+      "target": "务工人员",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "孙元斌",
+      "target": "小学文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "孙元斌",
+      "target": "（2018）浙0903刑初48号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "孙元斌",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "谷世君",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "谷世君",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "谷世君",
+      "target": "（2017）浙0902刑初354号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "谷世君",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "虞森杰",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "虞森杰",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "虞森杰",
+      "target": "（2018）浙0902刑初6号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "虞森杰",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "胡慧琼",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "胡慧琼",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "胡慧琼",
+      "target": "（2018）浙0902刑初6号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "胡慧琼",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "姚佳辰",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "姚佳辰",
+      "target": "高中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "姚佳辰",
+      "target": "（2018）浙0902刑初52号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "姚佳辰",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "王文彬",
+      "target": "务工",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "王文彬",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "王文彬",
+      "target": "（2018）浙0902刑初52号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "王文彬",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "金可",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "金可",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "金可",
+      "target": "（2018）浙0903刑初46号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "金可",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "王其雷",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "王其雷",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "王其雷",
+      "target": "（2017）浙0902刑初440号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "王其雷",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "闻张平",
+      "target": "务工",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "闻张平",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "闻张平",
+      "target": "（2018）浙0902刑初6号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "闻张平",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "王迪",
+      "target": "务工人员",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "王迪",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "王迪",
+      "target": "（2018）浙0903刑初48号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "王迪",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "朱伟斌",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "朱伟斌",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "朱伟斌",
+      "target": "（2017）浙0902刑初354号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "朱伟斌",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "孙永杰",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "孙永杰",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "孙永杰",
+      "target": "（2018）浙0902刑初6号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "孙永杰",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "苏俊烈",
+      "target": "务工",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "苏俊烈",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "苏俊烈",
+      "target": "（2018）浙0902刑初6号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "苏俊烈",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "侯瑜杰",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "侯瑜杰",
+      "target": "大专文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "侯瑜杰",
+      "target": "（2018）浙0902刑初149号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "侯瑜杰",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "陈绍勤",
+      "target": "舟山港综合保税区中贸石油化工有限公司法定代表人",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "陈绍勤",
+      "target": "高中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "陈绍勤",
+      "target": "（2017）浙0902刑初354号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "陈绍勤",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "杨涛",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "杨涛",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "杨涛",
+      "target": "（2017）浙0922刑初32号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "杨涛",
+      "target": "嵊泗县",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "夏汉平",
+      "target": "务工",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "夏汉平",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "夏汉平",
+      "target": "（2017）浙0902刑初354号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "夏汉平",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "凃玉彩",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "凃玉彩",
+      "target": "文盲",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "凃玉彩",
+      "target": "（2017）浙0903刑初367号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "凃玉彩",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "韩伟",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "韩伟",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "韩伟",
+      "target": "（2018）浙0902刑初6号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "韩伟",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "范美菊",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "范美菊",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "范美菊",
+      "target": "（2018）浙0903刑初48号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "范美菊",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "刘坤",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "刘坤",
+      "target": "小学文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "刘坤",
+      "target": "（2017）浙0902刑初355号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "刘坤",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "袁兆麒",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "袁兆麒",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "袁兆麒",
+      "target": "（2018）浙0902刑初52号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "袁兆麒",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "徐健杰",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "徐健杰",
+      "target": "大专文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "徐健杰",
+      "target": "（2018）浙0903刑初170号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "徐健杰",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "陈永泽",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "陈永泽",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "陈永泽",
+      "target": "（2017）浙0903刑初367号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "陈永泽",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "应岳波",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "应岳波",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "应岳波",
+      "target": "（2017）浙0902刑初440号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "应岳波",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "朱玉芹",
+      "target": "个体司机",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "朱玉芹",
+      "target": "小学文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "朱玉芹",
+      "target": "（2017）浙0902刑初461号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "朱玉芹",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "郑丹洁",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "郑丹洁",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "郑丹洁",
+      "target": "（2018）浙0903刑初92号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "郑丹洁",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "舒群主",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "舒群主",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "舒群主",
+      "target": "（2017）浙0902刑初355号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "舒群主",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "徐祥法",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "徐祥法",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "徐祥法",
+      "target": "（2018）浙0902刑初6号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "徐祥法",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "吴运琴",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "吴运琴",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "吴运琴",
+      "target": "（2018）浙0903刑初15号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "吴运琴",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "吕思强",
+      "target": "个体经营",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "吕思强",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "吕思强",
+      "target": "（2018）浙0921刑初10号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "吕思强",
+      "target": "浙江省岱山县",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "叶辉",
+      "target": "中国人民解放军第4806工厂工人",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "叶辉",
+      "target": "高中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "叶辉",
+      "target": "（2017）浙0902刑初354号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "叶辉",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "宋文军",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "宋文军",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "宋文军",
+      "target": "（2017）浙0902刑初355号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "宋文军",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "童和平",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "童和平",
+      "target": "初小文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "童和平",
+      "target": "(2018)浙0922刑初13号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "童和平",
+      "target": "嵊泗县",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "胡少",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "胡少",
+      "target": "小学文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "胡少",
+      "target": "（2018）浙0902刑初6号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "胡少",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "柴芬芬",
+      "target": "个体",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "柴芬芬",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "柴芬芬",
+      "target": "（2018）浙0921刑初4号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "柴芬芬",
+      "target": "浙江省岱山县",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "刘高波",
+      "target": "渔民",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "刘高波",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "刘高波",
+      "target": "(2018)浙0922刑初13号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "刘高波",
+      "target": "嵊泗县",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "谢晓珍",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "谢晓珍",
+      "target": "小学文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "谢晓珍",
+      "target": "（2018）浙0902刑初106号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "谢晓珍",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "李金法",
+      "target": "务工人员",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "李金法",
+      "target": "小学文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "李金法",
+      "target": "（2017）浙0903刑初367号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "李金法",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "翁伟仁",
+      "target": "个体经营者",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "翁伟仁",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "翁伟仁",
+      "target": "（2018）浙0903刑初125号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "翁伟仁",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "朱忠道",
+      "target": "个体",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "朱忠道",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "朱忠道",
+      "target": "（2018）浙0921刑初19号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "朱忠道",
+      "target": "浙江省岱山县",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "倪国涌",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "倪国涌",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "倪国涌",
+      "target": "（2017）浙0902刑初440号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "倪国涌",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "李英",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "李英",
+      "target": "小学文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "李英",
+      "target": "(2017)浙0922刑初55号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "李英",
+      "target": "嵊泗县",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "陈佳喜",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "陈佳喜",
+      "target": "小学文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "陈佳喜",
+      "target": "（2017）浙0902刑初355号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "陈佳喜",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "张庆碧",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "张庆碧",
+      "target": "初中文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "张庆碧",
+      "target": "（2018）浙0903刑初22号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "张庆碧",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "张传通",
+      "target": "无业",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "张传通",
+      "target": "小学文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "张传通",
+      "target": "（2017）浙0902刑初450号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "张传通",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "贺波",
+      "target": "务工人员",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "贺波",
+      "target": "小学文化",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "贺波",
+      "target": "（2018）浙0903刑初37号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "贺波",
+      "target": "舟山市普陀区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "张忠华",
+      "target": "个体捕鱼",
+      "value": 40,
+      "relation": "工作"
+    },
+    {
+      "source": "张忠华",
+      "target": "文盲",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "张忠华",
+      "target": "（2017）浙0902刑初461号",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "张忠华",
+      "target": "舟山市定海区",
+      "value": 40,
+      "relation": "文化程度"
+    },
+    {
+      "source": "朱伟斌",
+      "target": "叶辉",
       "value": 40,
       "relation": "联系"
     },
     {
-      "source": "戴银珑",
-      "target": "郑英博",
+      "source": "叶辉",
+      "target": "朱伟斌",
       "value": 40,
-      "relation": "联系"
+      "relation": "转给"
     },
     {
-      "source": "戴银珑",
-      "target": "刘苹",
+      "source": "朱伟斌",
+      "target": "谷世君",
+      "value": 40,
+      "relation": "追究"
+    },
+    {
+      "source": "朱伟斌",
+      "target": "谷世君",
       "value": 40,
       "relation": "并处"
     },
     {
-      "source": "戴银珑",
-      "target": "郑英博",
-      "value": 40,
-      "relation": "伙同"
-    },
-    {
-      "source": "郑英博",
-      "target": "戴银珑",
-      "value": 40,
-      "relation": "辩称"
-    },
-    {
-      "source": "刘苹",
-      "target": "郑英博",
-      "value": 40,
-      "relation": "明知"
-    },
-    {
-      "source": "郑英博",
-      "target": "戴银珑",
-      "value": 40,
-      "relation": "伙同"
-    },
-    {
-      "source": "戴银珑",
-      "target": "郑英博",
+      "source": "朱伟斌",
+      "target": "叶辉",
       "value": 40,
       "relation": "联系"
     },
     {
-      "source": "戴银珑",
-      "target": "郑英博",
-      "value": 40,
-      "relation": "联系"
-    },
-    {
-      "source": "戴银珑",
-      "target": "郑英博",
-      "value": 40,
-      "relation": "供"
-    },
-    {
-      "source": "郑英博",
-      "target": "戴银珑",
-      "value": 40,
-      "relation": "供"
-    },
-    {
-      "source": "郑英博",
-      "target": "戴银珑",
+      "source": "叶辉",
+      "target": "朱伟斌",
       "value": 40,
       "relation": "转给"
     },
     {
-      "source": "戴银珑",
-      "target": "郑英博",
+      "source": "舒群主",
+      "target": "陈佳喜",
+      "value": 40,
+      "relation": "容留"
+    },
+    {
+      "source": "宋文军",
+      "target": "陈佳喜",
       "value": 40,
       "relation": "联系"
     },
     {
-      "source": "郑英博",
-      "target": "戴银珑",
+      "source": "陈佳喜",
+      "target": "刘坤",
       "value": 40,
-      "relation": "到"
+      "relation": "指使"
     },
     {
-      "source": "张宝顺",
-      "target": "杨美芳",
-      "value": 40,
-      "relation": "联系"
-    },
-    {
-      "source": "杨美芳",
-      "target": "张宝顺",
-      "value": 40,
-      "relation": "交给"
-    },
-    {
-      "source": "张宝顺",
-      "target": "杨美芳",
-      "value": 40,
-      "relation": "联系"
-    },
-    {
-      "source": "吴奎昌",
-      "target": "范革军",
-      "value": 40,
-      "relation": "联系"
-    },
-    {
-      "source": "吴奎昌",
-      "target": "章海峰",
-      "value": 40,
-      "relation": "查获"
-    },
-    {
-      "source": "章海峰",
-      "target": "吴奎昌",
-      "value": 40,
-      "relation": "携带"
-    },
-    {
-      "source": "吴奎昌",
-      "target": "范革军",
-      "value": 40,
-      "relation": "不符"
-    },
-    {
-      "source": "范革军",
-      "target": "章海峰",
-      "value": 40,
-      "relation": "伙同"
-    },
-    {
-      "source": "章海峰",
-      "target": "吴奎昌",
-      "value": 40,
-      "relation": "确定"
-    },
-    {
-      "source": "吴奎昌",
-      "target": "范革军",
-      "value": 40,
-      "relation": "联系"
-    },
-    {
-      "source": "吴奎昌",
-      "target": "章海峰",
-      "value": 40,
-      "relation": "共计"
-    },
-    {
-      "source": "董利前",
-      "target": "刘盛军",
-      "value": 40,
-      "relation": "抓获"
-    },
-    {
-      "source": "董利前",
-      "target": "刘盛军",
-      "value": 40,
-      "relation": "转给"
-    },
-    {
-      "source": "董利前",
-      "target": "刘盛军",
-      "value": 40,
-      "relation": "转给"
-    },
-    {
-      "source": "董利前",
-      "target": "刘盛军",
-      "value": 40,
-      "relation": "抓获"
-    },
-    {
-      "source": "陈平",
-      "target": "袁俊",
-      "value": 40,
-      "relation": "纠集"
-    },
-    {
-      "source": "徐小燕",
-      "target": "陈平",
-      "value": 40,
-      "relation": "系"
-    },
-    {
-      "source": "徐小燕",
-      "target": "袁俊",
-      "value": 40,
-      "relation": "联系"
-    },
-    {
-      "source": "袁俊",
-      "target": "徐小燕",
-      "value": 40,
-      "relation": "装入"
-    },
-    {
-      "source": "陈平",
-      "target": "徐小燕",
-      "value": 40,
-      "relation": "抓获"
-    },
-    {
-      "source": "朱应章",
-      "target": "游龙飞",
-      "value": 40,
-      "relation": "平"
-    },
-    {
-      "source": "游龙飞",
-      "target": "朱应章",
+      "source": "陈佳喜",
+      "target": "宋文军",
       "value": 40,
       "relation": "贩卖"
     },
     {
-      "source": "李耀平",
-      "target": "朱应章",
+      "source": "宋文军",
+      "target": "刘坤",
       "value": 40,
-      "relation": "应当"
+      "relation": "贩卖"
     },
     {
-      "source": "朱应章",
-      "target": "游龙飞",
+      "source": "陈佳喜",
+      "target": "刘坤",
       "value": 40,
-      "relation": "平"
+      "relation": "到"
     },
     {
-      "source": "游龙飞",
-      "target": "朱应章",
+      "source": "陈佳喜",
+      "target": "宋文军",
       "value": 40,
-      "relation": "减轻"
+      "relation": "要"
     },
     {
-      "source": "朱应章",
-      "target": "游龙飞",
+      "source": "宋文军",
+      "target": "陈佳喜",
       "value": 40,
-      "relation": "平"
+      "relation": "交给"
     },
     {
-      "source": "朱应章",
-      "target": "游龙飞",
+      "source": "陈佳喜",
+      "target": "宋文军",
       "value": 40,
-      "relation": "平"
+      "relation": "持有"
     },
     {
-      "source": "朱应章",
-      "target": "游龙飞",
+      "source": "宋文军",
+      "target": "刘坤",
       "value": 40,
-      "relation": "平"
+      "relation": "持有"
     },
     {
-      "source": "陈正波",
-      "target": "吴景冬",
+      "source": "刘坤",
+      "target": "陈佳喜",
       "value": 40,
-      "relation": "组织"
+      "relation": "论"
     },
     {
-      "source": "陈正波",
-      "target": "杨国忠",
+      "source": "陈佳喜",
+      "target": "刘坤",
+      "value": 40,
+      "relation": "包"
+    },
+    {
+      "source": "舒群主",
+      "target": "陈佳喜",
+      "value": 40,
+      "relation": "容留"
+    },
+    {
+      "source": "陈佳喜",
+      "target": "舒群主",
+      "value": 40,
+      "relation": "吸食"
+    },
+    {
+      "source": "舒群主",
+      "target": "陈佳喜",
+      "value": 40,
+      "relation": "容留"
+    },
+    {
+      "source": "陈佳喜",
+      "target": "舒群主",
+      "value": 40,
+      "relation": "吸食"
+    },
+    {
+      "source": "舒群主",
+      "target": "刘坤",
+      "value": 40,
+      "relation": "容留"
+    },
+    {
+      "source": "刘坤",
+      "target": "舒群主",
+      "value": 40,
+      "relation": "吸食"
+    },
+    {
+      "source": "舒群主",
+      "target": "陈佳喜",
+      "value": 40,
+      "relation": "容留"
+    },
+    {
+      "source": "舒群主",
+      "target": "陈佳喜",
+      "value": 40,
+      "relation": "容留"
+    },
+    {
+      "source": "夏良辉",
+      "target": "王其雷",
+      "value": 40,
+      "relation": "追究"
+    },
+    {
+      "source": "夏良辉",
+      "target": "王其雷",
+      "value": 40,
+      "relation": "容留"
+    },
+    {
+      "source": "王其雷",
+      "target": "应岳波",
+      "value": 40,
+      "relation": "容留"
+    },
+    {
+      "source": "王其雷",
+      "target": "倪国涌",
       "value": 40,
       "relation": "联系"
     },
     {
-      "source": "陈正波",
-      "target": "杨国忠",
+      "source": "夏良辉",
+      "target": "宋文军",
+      "value": 40,
+      "relation": "有"
+    },
+    {
+      "source": "夏良辉",
+      "target": "倪国涌",
+      "value": 40,
+      "relation": "持有"
+    },
+    {
+      "source": "张玲",
+      "target": "朱玉芹",
+      "value": 40,
+      "relation": "伙同"
+    },
+    {
+      "source": "张玲",
+      "target": "张忠华",
+      "value": 40,
+      "relation": "追究"
+    },
+    {
+      "source": "朱玉芹",
+      "target": "张玲",
+      "value": 40,
+      "relation": "明知"
+    },
+    {
+      "source": "朱玉芹",
+      "target": "张玲",
+      "value": 40,
+      "relation": "明知"
+    },
+    {
+      "source": "张玲",
+      "target": "朱玉芹",
+      "value": 40,
+      "relation": "伙同"
+    },
+    {
+      "source": "张玲",
+      "target": "朱玉芹",
       "value": 40,
       "relation": "指使"
     },
     {
-      "source": "吴景冬",
-      "target": "张希平",
-      "value": 40,
-      "relation": "可以"
-    },
-    {
-      "source": "陈正波",
-      "target": "吴景冬",
-      "value": 40,
-      "relation": "判处"
-    },
-    {
-      "source": "吴景冬",
-      "target": "陈正波",
-      "value": 40,
-      "relation": "帮助"
-    },
-    {
-      "source": "陈正波",
-      "target": "吴景冬",
-      "value": 40,
-      "relation": "排除"
-    },
-    {
-      "source": "陈正波",
-      "target": "吴景冬",
-      "value": 40,
-      "relation": "组织"
-    },
-    {
-      "source": "陈正波",
-      "target": "杨国忠",
+      "source": "张玲",
+      "target": "朱玉芹",
       "value": 40,
       "relation": "指使"
     },
     {
-      "source": "杨国忠",
-      "target": "陈正波",
+      "source": "张玲",
+      "target": "朱玉芹",
       "value": 40,
-      "relation": "主叫"
+      "relation": "指使"
     },
     {
-      "source": "杨国忠",
-      "target": "陈正波",
+      "source": "张玲",
+      "target": "朱玉芹",
       "value": 40,
-      "relation": "主叫"
+      "relation": "指使"
     },
     {
-      "source": "杨国忠",
-      "target": "陈正波",
+      "source": "张玲",
+      "target": "朱玉芹",
       "value": 40,
-      "relation": "所持"
+      "relation": "指使"
     },
     {
-      "source": "陈正波",
-      "target": "张孝检",
+      "source": "张玲",
+      "target": "朱玉芹",
       "value": 40,
-      "relation": "使用"
+      "relation": "指使"
     },
     {
-      "source": "吴景冬",
-      "target": "陈正波",
+      "source": "张忠华",
+      "target": "张玲",
+      "value": 40,
+      "relation": "介绍"
+    },
+    {
+      "source": "张玲",
+      "target": "朱玉芹",
+      "value": 40,
+      "relation": "联系"
+    },
+    {
+      "source": "朱玉芹",
+      "target": "张玲",
+      "value": 40,
+      "relation": "问"
+    },
+    {
+      "source": "张玲",
+      "target": "朱玉芹",
+      "value": 40,
+      "relation": "联系"
+    },
+    {
+      "source": "朱玉芹",
+      "target": "张玲",
       "value": 40,
       "relation": "帮"
     },
     {
-      "source": "陈正波",
-      "target": "张希平",
+      "source": "张忠华",
+      "target": "张玲",
       "value": 40,
-      "relation": "即"
+      "relation": "介绍"
     },
     {
-      "source": "吴景冬",
-      "target": "陈正波",
+      "source": "张忠华",
+      "target": "张玲",
       "value": 40,
-      "relation": "帮助"
+      "relation": "接上"
     },
     {
-      "source": "陈正波",
-      "target": "杨国忠",
+      "source": "张忠华",
+      "target": "张玲",
       "value": 40,
-      "relation": "拿到"
+      "relation": "去"
     },
     {
-      "source": "杨国忠",
-      "target": "张孝检",
+      "source": "朱玉芹",
+      "target": "张玲",
       "value": 40,
-      "relation": "无"
+      "relation": "称"
     },
     {
-      "source": "陈彩平",
-      "target": "胡国强",
-      "value": 40,
-      "relation": "购买"
-    },
-    {
-      "source": "张小军",
-      "target": "应林丽",
-      "value": 40,
-      "relation": "交给"
-    },
-    {
-      "source": "林强华",
-      "target": "赵峰",
-      "value": 40,
-      "relation": "谈"
-    },
-    {
-      "source": "林强华",
-      "target": "赵峰",
-      "value": 40,
-      "relation": "含有"
-    },
-    {
-      "source": "冯建成",
-      "target": "林强华",
-      "value": 40,
-      "relation": "购买"
-    },
-    {
-      "source": "林强华",
-      "target": "冯建成",
-      "value": 40,
-      "relation": "含有"
-    },
-    {
-      "source": "冯建成",
-      "target": "赵峰",
-      "value": 40,
-      "relation": "到"
-    },
-    {
-      "source": "陈万松",
-      "target": "陈万新",
-      "value": 40,
-      "relation": "卖"
-    },
-    {
-      "source": "陈万松",
-      "target": "陈万新",
-      "value": 40,
-      "relation": "卖"
-    },
-    {
-      "source": "陈万松",
-      "target": "陈万新",
-      "value": 40,
-      "relation": "卖"
-    },
-    {
-      "source": "陈万松",
-      "target": "陈万新",
-      "value": 40,
-      "relation": "卖"
-    },
-    {
-      "source": "邹启卫",
-      "target": "邵建敏",
-      "value": 40,
-      "relation": "卖"
-    },
-    {
-      "source": "王霜霜",
-      "target": "戴陈利",
-      "value": 40,
-      "relation": "帮助"
-    },
-    {
-      "source": "戴陈利",
-      "target": "王霜霜",
-      "value": 40,
-      "relation": "自首"
-    },
-    {
-      "source": "戴陈利",
-      "target": "王霜霜",
-      "value": 40,
-      "relation": "扣押"
-    },
-    {
-      "source": "黄勇",
-      "target": "黄雪丹",
-      "value": 40,
-      "relation": "联系"
-    },
-    {
-      "source": "潘剑",
-      "target": "黄晓宽",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "赵建",
-      "target": "陈佳佳",
-      "value": 40,
-      "relation": "贩卖"
-    },
-    {
-      "source": "赵建",
-      "target": "陈佳佳",
-      "value": 40,
-      "relation": "没有"
-    },
-    {
-      "source": "徐国星",
-      "target": "潘太朝",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "徐国星",
-      "target": "潘太朝",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "徐国星",
-      "target": "潘太朝",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "徐国星",
-      "target": "潘太朝",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "徐国星",
-      "target": "潘太朝",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "徐国星",
-      "target": "潘太朝",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "肖荣发",
-      "target": "叶德宠",
-      "value": 40,
-      "relation": "收取"
-    },
-    {
-      "source": "段昭焕",
-      "target": "范玉均",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "段昭焕",
-      "target": "范玉均",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "谢卫",
-      "target": "李银蕊",
-      "value": 40,
-      "relation": "坦白"
-    },
-    {
-      "source": "谢卫",
-      "target": "李银蕊",
-      "value": 40,
-      "relation": "提出"
-    },
-    {
-      "source": "陈剑",
-      "target": "陈振枢",
-      "value": 40,
-      "relation": "贩卖"
-    },
-    {
-      "source": "陈剑",
-      "target": "陈振枢",
-      "value": 40,
-      "relation": "判处"
-    },
-    {
-      "source": "陈振枢",
-      "target": "陈剑",
-      "value": 40,
-      "relation": "购买"
-    },
-    {
-      "source": "王明洲",
-      "target": "包春慧",
-      "value": 40,
-      "relation": "卖"
-    },
-    {
-      "source": "包春慧",
-      "target": "王明洲",
-      "value": 40,
-      "relation": "如下"
-    },
-    {
-      "source": "吴奎昌",
-      "target": "何建峰",
-      "value": 40,
-      "relation": "贩卖"
-    },
-    {
-      "source": "巫茂阳",
-      "target": "明兴",
-      "value": 40,
-      "relation": "贩卖"
-    },
-    {
-      "source": "巫茂阳",
-      "target": "明兴",
-      "value": 40,
-      "relation": "抓获"
-    },
-    {
-      "source": "吴道其",
-      "target": "吴奎昌",
-      "value": 40,
-      "relation": "放置"
-    },
-    {
-      "source": "郑国游",
-      "target": "林德调",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "郑国游",
-      "target": "林德调",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "郑国游",
-      "target": "林德调",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "林德调",
-      "target": "郑国游",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "林德调",
-      "target": "郑国游",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "林德调",
-      "target": "郑国游",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "吴华义",
-      "target": "陈章贵",
-      "value": 40,
-      "relation": "容留"
-    },
-    {
-      "source": "倪建乐",
-      "target": "叶大泽",
-      "value": 40,
-      "relation": "联系"
-    },
-    {
-      "source": "刘剑",
-      "target": "胡寅熠",
-      "value": 40,
-      "relation": "联系"
-    },
-    {
-      "source": "胡寅熠",
-      "target": "刘剑",
-      "value": 40,
-      "relation": "转发给"
-    },
-    {
-      "source": "倪建乐",
-      "target": "应良宫",
-      "value": 40,
-      "relation": "联系"
-    },
-    {
-      "source": "应良宫",
-      "target": "倪建乐",
-      "value": 40,
-      "relation": "准备"
-    },
-    {
-      "source": "郑祥志",
-      "target": "何桂成",
-      "value": 40,
-      "relation": "抓获"
-    },
-    {
-      "source": "李文铭",
-      "target": "舒富贵",
-      "value": 40,
-      "relation": "指使"
-    },
-    {
-      "source": "李文铭",
-      "target": "舒富贵",
-      "value": 40,
-      "relation": "用于"
-    },
-    {
-      "source": "舒富贵",
-      "target": "张云云",
-      "value": 40,
-      "relation": "系"
-    },
-    {
-      "source": "张云云",
-      "target": "李文铭",
-      "value": 40,
-      "relation": "使用"
-    },
-    {
-      "source": "舒富贵",
-      "target": "李文铭",
-      "value": 40,
-      "relation": "收到"
-    },
-    {
-      "source": "舒富贵",
-      "target": "李文铭",
-      "value": 40,
-      "relation": "收到"
-    },
-    {
-      "source": "陈妮",
-      "target": "李文铭",
-      "value": 40,
-      "relation": "伙同"
-    },
-    {
-      "source": "李文铭",
-      "target": "张云云",
-      "value": 40,
-      "relation": "指使"
-    },
-    {
-      "source": "张云云",
-      "target": "李文铭",
+      "source": "朱玉芹",
+      "target": "张玲",
       "value": 40,
       "relation": "明知"
     },
     {
-      "source": "何桂成",
-      "target": "郑祥志",
+      "source": "朱玉芹",
+      "target": "张玲",
+      "value": 40,
+      "relation": "帮"
+    },
+    {
+      "source": "张玲",
+      "target": "朱玉芹",
+      "value": 40,
+      "relation": "来看"
+    },
+    {
+      "source": "刘双燕",
+      "target": "黄雪南",
+      "value": 40,
+      "relation": "指使"
+    },
+    {
+      "source": "林永良",
+      "target": "何君飞",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "俞海杰",
+      "target": "叶挺",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "林永良",
+      "target": "俞海杰",
+      "value": 40,
+      "relation": "判处"
+    },
+    {
+      "source": "俞海杰",
+      "target": "何君飞",
+      "value": 40,
+      "relation": "判处"
+    },
+    {
+      "source": "俞海杰",
+      "target": "叶挺",
+      "value": 40,
+      "relation": "没有"
+    },
+    {
+      "source": "林永良",
+      "target": "何君飞",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "林永良",
+      "target": "何君飞",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "俞海杰",
+      "target": "叶挺",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "俞海杰",
+      "target": "叶挺",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "俞海杰",
+      "target": "叶挺",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "俞海杰",
+      "target": "叶挺",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "俞海杰",
+      "target": "叶挺",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "俞海杰",
+      "target": "吴运琴",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "顾平潮",
+      "target": "吴运琴",
+      "value": 40,
+      "relation": "认识"
+    },
+    {
+      "source": "俞海杰",
+      "target": "林永良",
+      "value": 40,
+      "relation": "提取"
+    },
+    {
+      "source": "俞海杰",
+      "target": "吴运琴",
+      "value": 40,
+      "relation": "有"
+    },
+    {
+      "source": "俞海杰",
+      "target": "林永良",
+      "value": 40,
+      "relation": "证明"
+    },
+    {
+      "source": "俞海杰",
+      "target": "叶挺",
+      "value": 40,
+      "relation": "提出"
+    },
+    {
+      "source": "王文彬",
+      "target": "袁兆麒",
+      "value": 40,
+      "relation": "指使"
+    },
+    {
+      "source": "王文彬",
+      "target": "姚佳辰",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "张志华",
+      "target": "徐祥法",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "徐祥法",
+      "target": "虞森杰",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "徐祥法",
+      "target": "韩伟",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "韩伟",
+      "target": "苏俊烈",
+      "value": 40,
+      "relation": "证据不足"
+    },
+    {
+      "source": "苏俊烈",
+      "target": "徐祥法",
+      "value": 40,
+      "relation": "认定"
+    },
+    {
+      "source": "徐祥法",
+      "target": "孙永杰",
+      "value": 40,
+      "relation": "随"
+    },
+    {
+      "source": "孙永杰",
+      "target": "徐祥法",
+      "value": 40,
+      "relation": "兴"
+    },
+    {
+      "source": "韩伟",
+      "target": "苏俊烈",
+      "value": 40,
+      "relation": "让"
+    },
+    {
+      "source": "苏俊烈",
+      "target": "韩伟",
+      "value": 40,
+      "relation": "明知"
+    },
+    {
+      "source": "徐祥法",
+      "target": "张志华",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "徐祥法",
+      "target": "张玲",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "徐祥法",
+      "target": "虞森杰",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "徐祥法",
+      "target": "胡少",
+      "value": 40,
+      "relation": "抵偿"
+    },
+    {
+      "source": "苏俊烈",
+      "target": "徐祥法",
+      "value": 40,
+      "relation": "明知"
+    },
+    {
+      "source": "张志华",
+      "target": "徐祥法",
+      "value": 40,
+      "relation": "明知"
+    },
+    {
+      "source": "徐祥法",
+      "target": "张志华",
+      "value": 40,
+      "relation": "需要"
+    },
+    {
+      "source": "闻张平",
+      "target": "孙永杰",
+      "value": 40,
+      "relation": "明知"
+    },
+    {
+      "source": "吴运琴",
+      "target": "顾平潮",
       "value": 40,
       "relation": "容留"
     },
     {
-      "source": "何桂成",
-      "target": "郑祥志",
+      "source": "吴运琴",
+      "target": "顾平潮",
       "value": 40,
       "relation": "容留"
     },
     {
-      "source": "何桂成",
-      "target": "郑祥志",
+      "source": "吴运琴",
+      "target": "顾平潮",
       "value": 40,
       "relation": "容留"
     },
     {
-      "source": "何桂成",
-      "target": "郑祥志",
+      "source": "吴运琴",
+      "target": "顾平潮",
       "value": 40,
       "relation": "容留"
     },
     {
-      "source": "林昌高",
-      "target": "王芳",
+      "source": "顾平潮",
+      "target": "吴运琴",
       "value": 40,
-      "relation": "合伙"
+      "relation": "容留"
+    },
+    {
+      "source": "范美菊",
+      "target": "孙元斌",
+      "value": 40,
+      "relation": "提供"
+    },
+    {
+      "source": "孙元斌",
+      "target": "王迪",
+      "value": 40,
+      "relation": "找来"
+    },
+    {
+      "source": "范美菊",
+      "target": "王迪",
+      "value": 40,
+      "relation": "容留"
+    },
+    {
+      "source": "范美菊",
+      "target": "孙元斌",
+      "value": 40,
+      "relation": "提供"
+    },
+    {
+      "source": "王迪",
+      "target": "孙元斌",
+      "value": 40,
+      "relation": "收取"
+    },
+    {
+      "source": "王迪",
+      "target": "孙元斌",
+      "value": 40,
+      "relation": "收取"
+    },
+    {
+      "source": "范美菊",
+      "target": "王迪",
+      "value": 40,
+      "relation": "容留"
+    },
+    {
+      "source": "刘高波",
+      "target": "童和平",
+      "value": 40,
+      "relation": "联系"
+    },
+    {
+      "source": "童和平",
+      "target": "刘高波",
+      "value": 40,
+      "relation": "贩卖"
+    },
+    {
+      "source": "刘高波",
+      "target": "童和平",
+      "value": 40,
+      "relation": "证实"
+    },
+    {
+      "source": "刘高波",
+      "target": "童和平",
+      "value": 40,
+      "relation": "证实"
     }
   ]
 }

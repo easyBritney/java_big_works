@@ -94,7 +94,7 @@
 
                         <%--</span>--%>
                         <form method="post" action="answer.do">
-                            <input type="text" class="form-control" id="editor" name='editor' placeholder="请输入问题">
+                            <input type="text" class="form-control" id="editor" name='editor' placeholder="请输入问题" height="1000">
                             <span class="input-group-btn">
                                 <button class="btn btn-primary" type="submit" id="myButton">
                                 确认
@@ -107,7 +107,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div>
-                        <textarea class="form-control" id="output" name='output' rows="20">
+                        <textarea class="form-control" id="output" name='output' rows="1">
                         </textarea>
                         <script>
 
