@@ -15,7 +15,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
+    <%--<meta charset="utf-8">--%>
+    <meta charset="UTF-8">
+=======
     <meta charset="utf-8">
+>>>>>>> 4c28d5096eb97d1bca06d8ba228a8467d444a9c7
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>title</title>
@@ -67,7 +72,11 @@
                     <a href="d3.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">d3</span> </a>
                 </li>
                 <li >
+<<<<<<< HEAD
+                    <a href="gragh_label.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">label图表</span> </a>
+=======
                     <a href="gragh_label.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">graghLabel</span> </a>
+>>>>>>> 4c28d5096eb97d1bca06d8ba228a8467d444a9c7
                 </li>
             </ul>
 
@@ -123,9 +132,13 @@
 
             </div>
         </div>
+<<<<<<< HEAD
+        <button id ="btn1" class="btn btn-primary col-lg-2" type="button" value="分析数据"></button>
+=======
 
         <button id ="btn1" class="btn btn-primary col-lg-2" type="button" value="分析数据"></button>
 
+>>>>>>> 4c28d5096eb97d1bca06d8ba228a8467d444a9c7
     </div>
 
 
@@ -187,6 +200,12 @@
             <%--}--%>
         <%--});--%>
     <%--});--%>
+    $("#btn1").click(function(){
+       <%ParseToCsv.parseToCsv("web/WEB-INF/upload/","web/WEB-INF/upload/csv/","upload"+new Date().getTime());%>
+        alert("分析完毕");
+    });
+
+
     $("#dropzoneForm").dropzone({
         paramName: "file", // The name that will be used to transfer the file
         //  maxFilesize: 2000, // MB

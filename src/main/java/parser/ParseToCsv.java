@@ -36,7 +36,7 @@ public class ParseToCsv {
         ArrayList<String> filePaths = new ReadFilePath().getFiles(filePath);
         ArrayList<BeanCrime> crimes = new ArrayList<>();
         Map<String, BeanPrisoner> prisonerMap = new HashMap<>();
-        File file = new File("web/WEB-INF/upload/csv");
+        File file = new File("web/WEB-INF/upload/csv/");
         if(!file.exists()  && !file.isDirectory())
         {
             file.mkdir();

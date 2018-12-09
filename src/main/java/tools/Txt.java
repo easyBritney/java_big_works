@@ -6,9 +6,11 @@ public class Txt {
     public static void WriteDictionary(String text,String filePath,Boolean append,String charSet)
     {
         try {
-            File f=new File(filePath);
-            if(!f.exists()  && !f.isDirectory())
+            if(text.equals(""))
                 return ;
+            File f=new File(filePath);
+//            if(!f.exists()  && !f.isDirectory())
+//                return ;
             FileOutputStream writerStream = new FileOutputStream(f,append);
 
             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(writerStream, charSet));
