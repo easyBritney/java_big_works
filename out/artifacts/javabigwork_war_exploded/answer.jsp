@@ -84,7 +84,7 @@
         </div>
         <div class="wrapper wrapper-content animated fadeInRight">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-10">
                     <div  class="input-group">
                         <%--<input type="text" class="form-control" id="editor" placeholder="请输入问题">--%>
                         <%--<span class="input-group-btn">--%>
@@ -94,7 +94,7 @@
 
                         <%--</span>--%>
                         <form method="post" action="answer.do">
-                            <input type="text" class="form-control" id="editor" name='editor' placeholder="请输入问题" height="1000">
+                            <textarea  class="form-control "  id="editor" name="editor" rows="10" placeholder="请输入问题"></textarea>
                             <span class="input-group-btn">
                                 <button class="btn btn-primary" type="submit" id="myButton">
                                 确认
@@ -105,10 +105,9 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-10">
                     <div>
-                        <textarea class="form-control" id="output" name='output' rows="1">
-                        </textarea>
+                        <textarea class="form-control" id="output"  style="height: 50px" ></textarea>
                         <script>
 
                             var searchURL = decodeURI(window.location.search);
