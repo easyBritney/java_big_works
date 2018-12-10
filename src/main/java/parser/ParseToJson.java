@@ -106,11 +106,11 @@ public class ParseToJson {
                                 "\"prisonType\":" + "\"" + prisoner.getPrisonType() + "\"," +
                                 "\"prisonTime\":" + "\"" + prisoner.getPrisonTime() + "\"," +
                                 "\"work\":" + "\"" + prisoner.getWork() + "\"," +
-                                "\"address\":" + "\"" + prisoner.getPlace() + "\"," +
+                                "\"address\":" + "\"" + prisoner.getPlace().replaceAll("\\s\\S","") + "\"," +
                                 "\"level\":" + "\"" + prisoner.getLevel() + "\"," +
                                 "\"sex\":" + "\"" + prisoner.getSex() + "\"," +
                                 "\"nation\":" + "\"" + prisoner.getNation() + "\"," +
-                                "\"idCard\":" + "\"" + prisoner.getIdCard() + "\"," +
+                                "\"idCard\":" + "\"" + prisoner.getIdCard() + "\"" +
                                 "},\r\n");
                 links = links.concat("{\"source\":\"" + prisoner.getName() + "\",\"target\":\"" + crime.getSerial() + "\",\"value\":120,\"relation\":\"" + "案号" + "\"},\r\n");
             }

@@ -66,7 +66,7 @@ public class MatchCase {
                 List<Term> sentence1=standard.seg(sentence);
                 for(Term term:sentence1)
                 {
-                    //System.out.print(term);
+                    System.out.print(term);
                     if(term.nature.toString().equals("t")&&time.equals(""))
                         time = term.word;
                     if(term.nature.toString().equals("v"))
