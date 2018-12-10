@@ -96,14 +96,14 @@ public class MatchPrisoner {
                         continue;
                     prisoner.setLevel(info[index++]);
                     if (info[index].contains("住") || info[index].contains("户籍")) {
-                        prisoner.setPlace(info[index]);
+                        prisoner.setPlace(info[index].replaceAll("\\s\\S",""));
                     } else {
                         prisoner.setWork(info[index++]);
-                        prisoner.setPlace(info[index]);
+                        prisoner.setPlace(info[index].replaceAll("\\s\\S",""));
                     }
                 }
                 else if(info[index].contains("住") || info[index].contains("户籍"))
-                    prisoner.setPlace(info[index]);
+                    prisoner.setPlace(info[index].replaceAll("\\s\\S",""));
 
             }
             if (!prisonerMap.containsKey(findName)) {
@@ -136,7 +136,7 @@ public class MatchPrisoner {
             if(bakPlaceMatcher.find())
                 prisoner.setPlace(bakPlaceMatcher.group().substring(bakPlaceMatcher.group().lastIndexOf("\t")+1));
             if(bakIdMatcher.find())
-                prisoner.setIdCard(bakIdMatcher.group());
+                prisoner.setIdCard(bakIdMatcher.group().substring(bakPlaceMatcher.group().lastIndexOf("\t")+1));
 
             if (!prisonerMap.containsKey(findName)) {
                 prisonerMap.put(findName, prisoner);
