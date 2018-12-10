@@ -1,8 +1,6 @@
 package hibernate_test;
 
 import model.BeanDrug;
-
-import org.hibernate.Query;
 import org.hibernate.Session;
 
 import java.io.IOException;
@@ -30,9 +28,7 @@ public class DrugManager {
             Session session=HibernateUtil.getSession();
             session.beginTransaction();
             String hql="From BeanDrug";
-
-            Query qry = session.createQuery(hql);
-
+            org.hibernate.query.Query qry = session.createQuery(hql);
             list=qry.list();
             session.getTransaction().commit();
             session.close();
@@ -45,14 +41,28 @@ public class DrugManager {
     public static Map<String,Float> loadAllDrugWeigh() throws BaseException {
         Map<String,Float> map=new HashMap<>() ;
         List<BeanDrug> list=loadAllDrugs();
-
         map.put("甲基苯丙胺",0.0f);
         map.put("冰毒", 0.0f);
         map.put("海洛因", 0.0f);
+        map.put("大麻",0.0f);
+        map.put("吗啡", 0.0f);
+
+        map.put("卡洛因", 0.0f);
+        map.put("卡西酮",0.0f);
+        map.put("鸦片", 0.0f);
+        map.put("K粉", 0.0f);
+        map.put("摇头丸",0.0f);
+
+        map.put("杜冷丁", 0.0f);
+        map.put("古柯", 0.0f);
+        map.put("咖啡因",0.0f);
+        map.put("三唑仑", 0.0f);
+        map.put("羟基丁酸", 0.0f);
 
         try{
             float value;
             for(BeanDrug drug:list){
+                // System.out.println(drug.getDrugType());
                 value= map.get(drug.getDrugType());
                 map.put(drug.getDrugType(), value+drug.getDrugNum());
             }
@@ -70,5 +80,5 @@ public class DrugManager {
         catch (Exception e){
 
         }
-        }
+    }
 }

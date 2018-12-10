@@ -1,0 +1,2026 @@
+{
+  "nodes": [
+    {
+      "id": "周莘淼",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1989年03月07日",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "拘役",
+      "prisonTime": "三个月",
+      "address": "居民",
+      "level": "初中文化",
+      "sex": "null",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1102刑初176号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年04月03日"
+    },
+    {
+      "id": "颜芳",
+      "group": 1,
+      "crimeType": "犯贩卖、运输毒品罪",
+      "birth": "1985年08月08日",
+      "penalty": "没收财产",
+      "penaltySum": "70000.0",
+      "prisonType": "剥夺政治权利",
+      "prisonTime": "二年",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1181刑初216号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年01月12日"
+    },
+    {
+      "id": "冯群建",
+      "group": 1,
+      "crimeType": "犯制造毒品罪",
+      "birth": "1980年09月23日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "拘役",
+      "prisonTime": "五个月",
+      "address": "农民",
+      "level": "小学文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1102刑初194号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年04月13日"
+    },
+    {
+      "id": "孙琼超",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1989年09月16日",
+      "penalty": "罚金",
+      "penaltySum": "8000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十个月",
+      "address": "农民",
+      "level": "小学文化程度",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初71号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年03月13日"
+    },
+    {
+      "id": "蔡希伟",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1978年07月18日",
+      "penalty": "罚金",
+      "penaltySum": "10000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十一年",
+      "address": "经商",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1121刑初386号",
+      "group": 30,
+      "area": "浙江省青田县",
+      "criminalProcura": "公诉机关浙江省青田县人民检察院",
+      "criminalCaseTime": "2018年03月06日"
+    },
+    {
+      "id": "练卫平",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1970年07月28日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八个月",
+      "address": "农民",
+      "level": "高中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1181刑初81号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年04月11日"
+    },
+    {
+      "id": "尹丽明",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1970年09月09日",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "二年",
+      "address": "农民",
+      "level": "小学文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初57号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年03月05日"
+    },
+    {
+      "id": "周春荣",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1975年03月07日",
+      "penalty": "罚金",
+      "penaltySum": "4000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "四年六个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1102刑初237号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年05月01日"
+    },
+    {
+      "id": "毛建华",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1991年11月29日",
+      "penalty": "罚金",
+      "penaltySum": "6000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初93号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年04月02日"
+    },
+    {
+      "id": "李金彪",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1992年08月16日",
+      "penalty": "没收财产",
+      "penaltySum": "10000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初113号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年04月27日"
+    },
+    {
+      "id": "史乐",
+      "group": 1,
+      "crimeType": "犯贩卖、运输毒品罪",
+      "birth": "1980年03月11日",
+      "penalty": "",
+      "penaltySum": "0.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年并处没收财产人民币五千元",
+      "address": "null",
+      "level": "高中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1124刑初92号",
+      "group": 30,
+      "area": "松阳县",
+      "criminalProcura": "公诉机关松阳县人民检察院",
+      "criminalCaseTime": "2018年01月19日"
+    },
+    {
+      "id": "胡露芳",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1994年09月19日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年四个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初19号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年01月26日"
+    },
+    {
+      "id": "卓威星",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1987年07月06日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "六个月",
+      "address": "务工",
+      "level": "高中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1181刑初63号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年03月13日"
+    },
+    {
+      "id": "曾海伟",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1978年08月16日",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八年",
+      "address": "null",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1124刑初92号",
+      "group": 30,
+      "area": "松阳县",
+      "criminalProcura": "公诉机关松阳县人民检察院",
+      "criminalCaseTime": "2018年01月19日"
+    },
+    {
+      "id": "王守荣",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1988年05月05日",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "六个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1102刑初13号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年01月12日"
+    },
+    {
+      "id": "黎全盛",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1991年02月08日",
+      "penalty": "罚金",
+      "penaltySum": "20000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "二年三个月",
+      "address": "null",
+      "level": "小学文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初101号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年03月03日"
+    },
+    {
+      "id": "叶周翔",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1995年06月10日",
+      "penalty": "罚金",
+      "penaltySum": "6000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十一个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1181刑初4号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年01月09日"
+    },
+    {
+      "id": "毛锦秋",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1975年10月20日",
+      "penalty": "没收财产",
+      "penaltySum": "70000.0",
+      "prisonType": "剥夺政治权利",
+      "prisonTime": "二年",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1181刑初53号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年04月12日"
+    },
+    {
+      "id": "刘高亮",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1986年03月20日",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1102刑初92号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年02月28日"
+    },
+    {
+      "id": "杨米荣",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1971年10月10日",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "五年",
+      "address": "null",
+      "level": "高中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1124刑初92号",
+      "group": 30,
+      "area": "松阳县",
+      "criminalProcura": "公诉机关松阳县人民检察院",
+      "criminalCaseTime": "2018年01月19日"
+    },
+    {
+      "id": "罗军",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1988年06月05日",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年三个月",
+      "address": "农民",
+      "level": "小学肄业文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1123刑初24号",
+      "group": 30,
+      "area": "浙江省遂昌县",
+      "criminalProcura": "公诉机关浙江省遂昌县人民检察院",
+      "criminalCaseTime": "2018年03月06日"
+    },
+    {
+      "id": "潘飞飞",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1992年09月05日",
+      "penalty": "罚金",
+      "penaltySum": "7000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年九个月",
+      "address": "农民",
+      "level": "小学文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1181刑初64号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年03月13日"
+    },
+    {
+      "id": "张永兴",
+      "group": 1,
+      "crimeType": "犯贩卖、运输毒品罪",
+      "birth": "1979年03月01日",
+      "penalty": "没收财产",
+      "penaltySum": "80000.0",
+      "prisonType": "剥夺政治权利",
+      "prisonTime": "三年",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1181刑初216号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年01月12日"
+    },
+    {
+      "id": "项昌根",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1973年08月09日",
+      "penalty": "罚金",
+      "penaltySum": "30000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "九年",
+      "address": "无业",
+      "level": "文盲",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1181刑初14号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年02月02日"
+    },
+    {
+      "id": "蓝勇林",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1980年10月17日",
+      "penalty": "罚金",
+      "penaltySum": "3500.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十年十个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "畲族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙11刑初2号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年06月15日"
+    },
+    {
+      "id": "施展杰",
+      "group": 1,
+      "crimeType": "犯盗窃罪犯容留他人吸毒罪",
+      "birth": "1996年01月27日",
+      "penalty": "罚金",
+      "penaltySum": "8000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "七个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "null",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初40号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年02月12日"
+    },
+    {
+      "id": "张玉安",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1974年02月07日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年二个月",
+      "address": "null",
+      "level": "小学文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1121刑初385号",
+      "group": 30,
+      "area": "浙江省青田县",
+      "criminalProcura": "公诉机关浙江省青田县人民检察院",
+      "criminalCaseTime": "2018年01月01日"
+    },
+    {
+      "id": "陈远清",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1964年03月17日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八年",
+      "address": "无业",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1125刑初148号",
+      "group": 30,
+      "area": "浙江省云和县",
+      "criminalProcura": "公诉机关浙江省云和县人民检察院",
+      "criminalCaseTime": "2018年03月07日"
+    },
+    {
+      "id": "吕晓军",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1983年08月06日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "六个月",
+      "address": "农民",
+      "level": "中专文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初158号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年05月22日"
+    },
+    {
+      "id": "蓝波",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1993年09月27日",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年四个月",
+      "address": "农民",
+      "level": "中专文化",
+      "sex": "男",
+      "nation": "畲族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1123刑初24号",
+      "group": 30,
+      "area": "浙江省遂昌县",
+      "criminalProcura": "公诉机关浙江省遂昌县人民检察院",
+      "criminalCaseTime": "2018年03月06日"
+    },
+    {
+      "id": "刘翔",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1995年10月01日",
+      "penalty": "罚金",
+      "penaltySum": "6000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十一个月",
+      "address": "无业",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1181刑初2号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年01月09日"
+    },
+    {
+      "id": "林明伟",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1980年12月10日",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "六个月",
+      "address": "null",
+      "level": "高中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1124刑初36号",
+      "group": 30,
+      "area": "松阳县",
+      "criminalProcura": "公诉机关松阳县人民检察院",
+      "criminalCaseTime": "2018年03月21日"
+    },
+    {
+      "id": "王忠涛",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1995年03月14日",
+      "penalty": "罚金",
+      "penaltySum": "20000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "六年",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1181刑初72号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年04月01日"
+    },
+    {
+      "id": "洪雪民",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1970年05月14日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八年",
+      "address": "null",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1121刑初373号",
+      "group": 30,
+      "area": "浙江省青田县",
+      "criminalProcura": "公诉机关浙江省青田县人民检察院",
+      "criminalCaseTime": "2017年12月27日"
+    },
+    {
+      "id": "周永升",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1973年10月08日",
+      "penalty": "罚金",
+      "penaltySum": "8000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八个月",
+      "address": "农民",
+      "level": "初中文化程度",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初134号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年05月07日"
+    },
+    {
+      "id": "王进",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1977年10月24日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "七年",
+      "address": "云和县城市管理行政执法局工作人员",
+      "level": "大专文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1125刑初148号",
+      "group": 30,
+      "area": "浙江省云和县",
+      "criminalProcura": "公诉机关浙江省云和县人民检察院",
+      "criminalCaseTime": "2018年03月07日"
+    },
+    {
+      "id": "吴松",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1990年06月01日",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "缓刑",
+      "prisonTime": "一年",
+      "address": "农民",
+      "level": "小学文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1126刑初4号",
+      "group": 30,
+      "area": "浙江省庆元县",
+      "criminalProcura": "公诉机关浙江省庆元县人民检察院",
+      "criminalCaseTime": "2018年01月29日"
+    },
+    {
+      "id": "泮建阳",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1985年07月07日",
+      "penalty": "罚金",
+      "penaltySum": "2500.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年六个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1102刑初111号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年03月12日"
+    },
+    {
+      "id": "卢珍鹏",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1987年08月11日",
+      "penalty": "罚金",
+      "penaltySum": "10000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "七年十个月",
+      "address": "无业",
+      "level": "小学文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1121刑初75号",
+      "group": 30,
+      "area": "浙江省青田县",
+      "criminalProcura": "公诉机关浙江省青田县人民检察院",
+      "criminalCaseTime": "2018年04月26日"
+    },
+    {
+      "id": "陈伟",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1978年03月10日",
+      "penalty": "罚金",
+      "penaltySum": "20000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十年",
+      "address": "务工",
+      "level": "小学文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1127刑初1号",
+      "group": 30,
+      "area": "景宁畲族自治县",
+      "criminalProcura": "公诉机关景宁畲族自治县人民检察院",
+      "criminalCaseTime": "2018年01月23日"
+    },
+    {
+      "id": "张青红",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪犯非法持有毒品罪",
+      "birth": "1979年08月14日",
+      "penalty": "罚金",
+      "penaltySum": "15000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十年七个月",
+      "address": "务工",
+      "level": "初中文化",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1125刑初148号",
+      "group": 30,
+      "area": "浙江省云和县",
+      "criminalProcura": "公诉机关浙江省云和县人民检察院",
+      "criminalCaseTime": "2018年03月07日"
+    },
+    {
+      "id": "王石敏",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1969年03月23日",
+      "penalty": "罚金",
+      "penaltySum": "3000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "四年",
+      "address": "null",
+      "level": "文盲",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1102刑初14号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年01月11日"
+    },
+    {
+      "id": "樊炫炜",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1992年01月16日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "七个月",
+      "address": "农民",
+      "level": "中专文化程度",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初169号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年06月26日"
+    },
+    {
+      "id": "胡春宝",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1981年12月04日",
+      "penalty": "罚金",
+      "penaltySum": "8000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十个月",
+      "address": "农民",
+      "level": "初中文化程度",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初70号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年03月07日"
+    },
+    {
+      "id": "陈荣俊",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1969年06月04日",
+      "penalty": "罚金",
+      "penaltySum": "10000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初175号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年06月05日"
+    },
+    {
+      "id": "毛世明",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1985年10月08日",
+      "penalty": "罚金",
+      "penaltySum": "6000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十个月",
+      "address": "无业",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1181刑初112号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年05月28日"
+    },
+    {
+      "id": "龙承柳",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1993年10月27日",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年",
+      "address": "null",
+      "level": "初中文化",
+      "sex": "女",
+      "nation": "侗族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1124刑初92号",
+      "group": 30,
+      "area": "松阳县",
+      "criminalProcura": "公诉机关松阳县人民检察院",
+      "criminalCaseTime": "2018年01月19日"
+    },
+    {
+      "id": "廖叶军",
+      "group": 1,
+      "crimeType": "犯贩卖、运输毒品罪",
+      "birth": "1992年04月20日",
+      "penalty": "没收财产",
+      "penaltySum": "60000.0",
+      "prisonType": "剥夺政治权利",
+      "prisonTime": "二年",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1181刑初216号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年01月12日"
+    },
+    {
+      "id": "许钊旗",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1988年09月09日",
+      "penalty": "罚金",
+      "penaltySum": "25000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "九年",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1102刑初204号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年06月29日"
+    },
+    {
+      "id": "吕小瑶",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1992年04月23日",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "拘役",
+      "prisonTime": "四个月",
+      "address": "居民",
+      "level": "大专肄业文化",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1123刑初48号",
+      "group": 30,
+      "area": "浙江省遂昌县",
+      "criminalProcura": "公诉机关浙江省遂昌县人民检察院",
+      "criminalCaseTime": "2018年05月29日"
+    },
+    {
+      "id": "邓欣",
+      "group": 1,
+      "crimeType": "犯贩卖、运输毒品罪",
+      "birth": "1979年08月16日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "四年",
+      "address": "居民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙11刑初5号",
+      "group": 30,
+      "area": "浙江省遂昌县",
+      "criminalProcura": "公诉机关浙江省遂昌县人民检察院",
+      "criminalCaseTime": "2018年02月02日"
+    },
+    {
+      "id": "胡文龙",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1983年07月26日",
+      "penalty": "没收财产",
+      "penaltySum": "20000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年",
+      "address": "无业",
+      "level": "高中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1121刑初386号",
+      "group": 30,
+      "area": "浙江省青田县",
+      "criminalProcura": "公诉机关浙江省青田县人民检察院",
+      "criminalCaseTime": "2018年03月06日"
+    },
+    {
+      "id": "杨华",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1996年05月13日",
+      "penalty": "罚金",
+      "penaltySum": "30000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "九年",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1181刑初216号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年01月12日"
+    },
+    {
+      "id": "张军伟",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1984年12月04日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "三年二个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1102刑初301号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年06月13日"
+    },
+    {
+      "id": "叶洪龙",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1974年11月11日",
+      "penalty": "罚金",
+      "penaltySum": "1000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年",
+      "address": "null",
+      "level": "小学文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1102刑初14号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年01月11日"
+    },
+    {
+      "id": "林芳",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1988年07月29日",
+      "penalty": "罚金",
+      "penaltySum": "2000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "一年八个月",
+      "address": "无业",
+      "level": "中专文化",
+      "sex": "女",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1125刑初148号",
+      "group": 30,
+      "area": "浙江省云和县",
+      "criminalProcura": "公诉机关浙江省云和县人民检察院",
+      "criminalCaseTime": "2018年03月07日"
+    },
+    {
+      "id": "李寿华",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1983年09月07日",
+      "penalty": "没收财产",
+      "penaltySum": "10000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年",
+      "address": "null",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1124刑初92号",
+      "group": 30,
+      "area": "松阳县",
+      "criminalProcura": "公诉机关松阳县人民检察院",
+      "criminalCaseTime": "2018年01月19日"
+    },
+    {
+      "id": "陈晓波",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1988年02月28日",
+      "penalty": "罚金",
+      "penaltySum": "1500.0",
+      "prisonType": "拘役",
+      "prisonTime": "五个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1102刑初143号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年03月19日"
+    },
+    {
+      "id": "程建东",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1975年10月06日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "八年",
+      "address": "农民",
+      "level": "小学文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1121刑初386号",
+      "group": 30,
+      "area": "浙江省青田县",
+      "criminalProcura": "公诉机关浙江省青田县人民检察院",
+      "criminalCaseTime": "2018年03月06日"
+    },
+    {
+      "id": "谢磊",
+      "group": 1,
+      "crimeType": "犯贩卖、运输毒品罪",
+      "birth": "1978年05月23日",
+      "penalty": "",
+      "penaltySum": "0.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "十五年并处没收财产人民币五千元",
+      "address": "null",
+      "level": "高中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1124刑初92号",
+      "group": 30,
+      "area": "松阳县",
+      "criminalProcura": "公诉机关松阳县人民检察院",
+      "criminalCaseTime": "2018年01月19日"
+    },
+    {
+      "id": "林昌伟",
+      "group": 1,
+      "crimeType": "犯容留他人吸毒罪",
+      "birth": "1984年07月28日",
+      "penalty": "罚金",
+      "penaltySum": "6000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "九个月",
+      "address": "农民",
+      "level": "小学肄业",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1181刑初119号",
+      "group": 30,
+      "area": "龙泉市",
+      "criminalProcura": "公诉机关龙泉市人民检察院",
+      "criminalCaseTime": "2018年06月12日"
+    },
+    {
+      "id": "曹柏温",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1998年08月15日",
+      "penalty": "罚金",
+      "penaltySum": "4000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "四年三个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1102刑初115号",
+      "group": 30,
+      "area": "丽水市莲都区",
+      "criminalProcura": "公诉机关丽水市莲都区人民检察院",
+      "criminalCaseTime": "2018年03月19日"
+    },
+    {
+      "id": "朱威",
+      "group": 1,
+      "crimeType": "犯盗窃罪",
+      "birth": "1987年06月06日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "缓刑",
+      "prisonTime": "十个月",
+      "address": "农民",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2018）浙1122刑初40号",
+      "group": 30,
+      "area": "浙江省缙云县",
+      "criminalProcura": "公诉机关浙江省缙云县人民检察院",
+      "criminalCaseTime": "2018年02月12日"
+    },
+    {
+      "id": "郭丽勇",
+      "group": 1,
+      "crimeType": "犯贩卖毒品罪",
+      "birth": "1978年12月08日",
+      "penalty": "罚金",
+      "penaltySum": "5000.0",
+      "prisonType": "有期徒刑",
+      "prisonTime": "二年八个月",
+      "address": "null",
+      "level": "初中文化",
+      "sex": "男",
+      "nation": "汉族",
+      "idCard": "null"
+    },
+    {
+      "id": "（2017）浙1121刑初395号",
+      "group": 30,
+      "area": "浙江省青田县",
+      "criminalProcura": "公诉机关浙江省青田县人民检察院",
+      "criminalCaseTime": "2018年01月02日"
+    }
+  ],
+  "links": [
+    {
+      "source": "周莘淼",
+      "target": "（2018）浙1102刑初176号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "颜芳",
+      "target": "（2017）浙1181刑初216号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "冯群建",
+      "target": "（2018）浙1102刑初194号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "孙琼超",
+      "target": "（2018）浙1122刑初71号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "蔡希伟",
+      "target": "（2017）浙1121刑初386号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "练卫平",
+      "target": "（2018）浙1181刑初81号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "尹丽明",
+      "target": "（2018）浙1122刑初57号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "周春荣",
+      "target": "（2018）浙1102刑初237号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "毛建华",
+      "target": "（2018）浙1122刑初93号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "李金彪",
+      "target": "（2018）浙1122刑初113号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "史乐",
+      "target": "（2017）浙1124刑初92号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "胡露芳",
+      "target": "（2018）浙1122刑初19号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "卓威星",
+      "target": "（2018）浙1181刑初63号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "曾海伟",
+      "target": "（2017）浙1124刑初92号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "王守荣",
+      "target": "（2018）浙1102刑初13号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "黎全盛",
+      "target": "（2018）浙1122刑初101号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "叶周翔",
+      "target": "（2018）浙1181刑初4号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "毛锦秋",
+      "target": "（2018）浙1181刑初53号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "刘高亮",
+      "target": "（2018）浙1102刑初92号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "杨米荣",
+      "target": "（2017）浙1124刑初92号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "罗军",
+      "target": "（2018）浙1123刑初24号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "潘飞飞",
+      "target": "（2018）浙1181刑初64号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "张永兴",
+      "target": "（2017）浙1181刑初216号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "项昌根",
+      "target": "（2018）浙1181刑初14号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "蓝勇林",
+      "target": "（2018）浙11刑初2号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "施展杰",
+      "target": "（2018）浙1122刑初40号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "张玉安",
+      "target": "（2017）浙1121刑初385号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "陈远清",
+      "target": "（2017）浙1125刑初148号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "吕晓军",
+      "target": "（2018）浙1122刑初158号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "蓝波",
+      "target": "（2018）浙1123刑初24号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "刘翔",
+      "target": "（2018）浙1181刑初2号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "林明伟",
+      "target": "（2018）浙1124刑初36号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "王忠涛",
+      "target": "（2018）浙1181刑初72号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "洪雪民",
+      "target": "（2017）浙1121刑初373号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "周永升",
+      "target": "（2018）浙1122刑初134号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "王进",
+      "target": "（2017）浙1125刑初148号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "吴松",
+      "target": "（2018）浙1126刑初4号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "泮建阳",
+      "target": "（2018）浙1102刑初111号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "卢珍鹏",
+      "target": "（2018）浙1121刑初75号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "陈伟",
+      "target": "（2018）浙1127刑初1号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "张青红",
+      "target": "（2017）浙1125刑初148号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "王石敏",
+      "target": "（2018）浙1102刑初14号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "樊炫炜",
+      "target": "（2018）浙1122刑初169号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "胡春宝",
+      "target": "（2018）浙1122刑初70号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "陈荣俊",
+      "target": "（2018）浙1122刑初175号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "毛世明",
+      "target": "（2018）浙1181刑初112号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "龙承柳",
+      "target": "（2017）浙1124刑初92号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "廖叶军",
+      "target": "（2017）浙1181刑初216号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "许钊旗",
+      "target": "（2018）浙1102刑初204号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "吕小瑶",
+      "target": "（2018）浙1123刑初48号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "邓欣",
+      "target": "（2017）浙11刑初5号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "胡文龙",
+      "target": "（2017）浙1121刑初386号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "杨华",
+      "target": "（2017）浙1181刑初216号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "张军伟",
+      "target": "（2018）浙1102刑初301号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "叶洪龙",
+      "target": "（2018）浙1102刑初14号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "林芳",
+      "target": "（2017）浙1125刑初148号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "李寿华",
+      "target": "（2017）浙1124刑初92号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "陈晓波",
+      "target": "（2018）浙1102刑初143号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "程建东",
+      "target": "（2017）浙1121刑初386号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "谢磊",
+      "target": "（2017）浙1124刑初92号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "林昌伟",
+      "target": "（2018）浙1181刑初119号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "曹柏温",
+      "target": "（2018）浙1102刑初115号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "朱威",
+      "target": "（2018）浙1122刑初40号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "郭丽勇",
+      "target": "（2017）浙1121刑初395号",
+      "value": 120,
+      "relation": "案号"
+    },
+    {
+      "source": "胡文龙",
+      "target": "蔡希伟",
+      "value": 120,
+      "relation": "联系"
+    },
+    {
+      "source": "胡文龙",
+      "target": "程建东",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "胡文龙",
+      "target": "程建东",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "胡文龙",
+      "target": "蔡希伟",
+      "value": 120,
+      "relation": "购买"
+    },
+    {
+      "source": "胡文龙",
+      "target": "蔡希伟",
+      "value": 120,
+      "relation": "联系"
+    },
+    {
+      "source": "胡文龙",
+      "target": "程建东",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "胡文龙",
+      "target": "程建东",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "李寿华",
+      "target": "谢磊",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "谢磊",
+      "target": "李寿华",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "李寿华",
+      "target": "谢磊",
+      "value": 120,
+      "relation": "联系"
+    },
+    {
+      "source": "谢磊",
+      "target": "史乐",
+      "value": 120,
+      "relation": "联系"
+    },
+    {
+      "source": "史乐",
+      "target": "曾海伟",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "李寿华",
+      "target": "谢磊",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "谢磊",
+      "target": "李寿华",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "李寿华",
+      "target": "谢磊",
+      "value": 120,
+      "relation": "联系"
+    },
+    {
+      "source": "谢磊",
+      "target": "史乐",
+      "value": 120,
+      "relation": "联系"
+    },
+    {
+      "source": "曾海伟",
+      "target": "李寿华",
+      "value": 120,
+      "relation": "系"
+    },
+    {
+      "source": "张青红",
+      "target": "王进",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "张永兴",
+      "target": "颜芳",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "颜芳",
+      "target": "杨华",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "杨华",
+      "target": "颜芳",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "颜芳",
+      "target": "张永兴",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "张永兴",
+      "target": "颜芳",
+      "value": 120,
+      "relation": "购买"
+    },
+    {
+      "source": "颜芳",
+      "target": "张永兴",
+      "value": 120,
+      "relation": "购买"
+    },
+    {
+      "source": "颜芳",
+      "target": "张永兴",
+      "value": 120,
+      "relation": "联系"
+    },
+    {
+      "source": "林昌伟",
+      "target": "毛世明",
+      "value": 120,
+      "relation": "容留"
+    },
+    {
+      "source": "林昌伟",
+      "target": "毛世明",
+      "value": 120,
+      "relation": "容留"
+    },
+    {
+      "source": "林昌伟",
+      "target": "毛世明",
+      "value": 120,
+      "relation": "容留"
+    },
+    {
+      "source": "林昌伟",
+      "target": "毛世明",
+      "value": 120,
+      "relation": "容留"
+    },
+    {
+      "source": "林昌伟",
+      "target": "毛世明",
+      "value": 120,
+      "relation": "容留"
+    },
+    {
+      "source": "项昌根",
+      "target": "陈远清",
+      "value": 120,
+      "relation": "卖给"
+    },
+    {
+      "source": "项昌根",
+      "target": "陈远清",
+      "value": 120,
+      "relation": "卖给"
+    },
+    {
+      "source": "毛锦秋",
+      "target": "廖叶军",
+      "value": 120,
+      "relation": "贩卖"
+    },
+    {
+      "source": "叶周翔",
+      "target": "毛锦秋",
+      "value": 120,
+      "relation": "联系"
+    },
+    {
+      "source": "叶周翔",
+      "target": "毛锦秋",
+      "value": 120,
+      "relation": "联系"
+    },
+    {
+      "source": "叶周翔",
+      "target": "毛锦秋",
+      "value": 120,
+      "relation": "联系"
+    },
+    {
+      "source": "叶周翔",
+      "target": "毛锦秋",
+      "value": 120,
+      "relation": "联系"
+    },
+    {
+      "source": "叶周翔",
+      "target": "毛锦秋",
+      "value": 120,
+      "relation": "联系"
+    }
+  ]
+}

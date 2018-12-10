@@ -61,7 +61,7 @@
                     <a href="d3.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">d3</span> </a>
                 </li>
                 <li >
-                    <a href="gragh_label.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">graphLabel</span> </a>
+                    <a href="gragh_label.jsp"><i class="fa fa-diamond"></i> <span class="nav-label">label图表</span> </a>
                 </li>
             </ul>
 
@@ -220,12 +220,18 @@
 
 
         var doughnutData = {
-            labels: ["甲基苯丙胺(g)","冰毒(g)","海洛因(g)"],
+            labels: ["甲基苯丙胺(g)","冰毒(g)","海洛因(g)","大麻(g)",
+                "吗啡(g)","卡洛因(g)","卡西酮(g)","鸦片(g)","K粉(g)","摇头丸(g)",
+                "杜冷丁(g)","古柯(g)","咖啡因(g)","三唑仑(g)","羟基丁酸(g)"],
             datasets: [{
                 <%Map<String,Float> map1=DrugManager.loadAllDrugWeigh();
                 %>
-                data: [<%=map1.get("甲基苯丙胺")%>,<%=map1.get("冰毒")%>,<%=map1.get("海洛因")%>],
-                backgroundColor: ["#a3e1d4","#dedede","#b5b8cf"]
+                data: [<%=map1.get("甲基苯丙胺")%>,<%=map1.get("冰毒")%>,<%=map1.get("海洛因")%>,<%=map1.get("大麻")%>,
+                    <%=map1.get("吗啡")%>,<%=map1.get("卡洛因")%>,<%=map1.get("卡西酮")%>,<%=map1.get("鸦片")%>,
+                    <%=map1.get("K粉")%>,<%=map1.get("摇头丸")%>,<%=map1.get("杜冷丁")%>,
+                    <%=map1.get("古柯")%>,<%=map1.get("咖啡因")%>,<%=map1.get("三唑仑")%>,<%=map1.get("羟基丁酸")%>,],
+                backgroundColor: ["#8470FF","#1E90FF","#40E0D0","#66CDAA","#BDB76B","#EEE8AA","#DEB887","#E9967A",
+                    "#9370DB","#8B8989","#FFDAB9","#1874CD","#009ACD","#7EC0EE","#B2DFEE"]
             }]
         } ;
         var doughnutOptions = {
