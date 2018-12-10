@@ -236,7 +236,8 @@
                         if(graph.nodes[i].group === 1){
                             if(graph.nodes[i].id.indexOf(text) !== -1 || graph.nodes[i].crimeType.indexOf(text) !== -1 || graph.nodes[i].birth.indexOf(text) !== -1
                             || graph.nodes[i].nation.indexOf(text) !== -1 || graph.nodes[i].penalty.indexOf(text) !== -1 || graph.nodes[i].prisonType.indexOf(text) !== -1
-                            || graph.nodes[i].address.indexOf(text) !== -1 || graph.nodes[i].level.indexOf(text) !== -1 || graph.nodes[i].sex.indexOf(text) !== -1)
+                            || graph.nodes[i].work.indexOf(text) !== -1|| graph.nodes[i].address.indexOf(text) !== -1 || graph.nodes[i].level.indexOf(text) !== -1 || graph.nodes[i].sex.indexOf(text) !== -1
+                            )
                                 local_nodes.push(graph.nodes[i])
                         }
                     }
@@ -440,7 +441,8 @@
                             "出生日期:" + d.birth + "<br/>" +
                             "身份证:" + d.idCard + "<br/>" +
                             "性别:" + d.sex + "<br/>" +
-                            "工作:" + d.address + "<br/>" +
+                            "工作:" + d.work + "<br/>" +
+                            "住址:" + d.address + "<br/>" +
                             "文化水平:" + d.level + "<br/>" +
                             "民族:" + d.nation + "<br/>" +
                             "罪名:" + d.crimeType + "" +

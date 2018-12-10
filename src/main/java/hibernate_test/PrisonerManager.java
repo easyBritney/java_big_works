@@ -22,7 +22,7 @@ public class PrisonerManager {
 
         System.out.println("-------"+prisoner.getCrimeid());
     }
-    public List<BeanPrisoner> loadAllPrisoners() throws BaseException {
+    public static List<BeanPrisoner> loadAllPrisoners() throws BaseException {
         List<BeanPrisoner> list=new ArrayList<>();
         try{
             Session session=HibernateUtil.getSession();
