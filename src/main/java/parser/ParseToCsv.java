@@ -12,9 +12,14 @@ import reader.ReadFilePath;
 import tools.Csv;
 import hibernate_test.*;
 
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.List;
@@ -24,19 +29,36 @@ import java.util.List;
 
 import static tools.Csv.writer;
 
-public class ParseToCsv {
+public class ParseToCsv extends HttpServlet {
     //writer(String filepath, Pair<String[], ArrayList<String[]>> data, boolean hasHeader, String charSet)
 
     public static String[] titles = {"案号", "法院名称", "地区", "时间", "一案人数", "年龄最小人员出生日期", "第一被告姓名", "性别", "身份证", "名族", "文化程度", "职业", "户籍", "罪名", "刑罚种类", "刑期", "财产刑种类", "财产刑金额", "毒品种类和数量或单位", "毒品单价"};
     public static Map<String, BeanPrisoner> PrisonerMap = new HashMap<>();
 
-    public static void parseToCsv(String filePath,String savePath, String saveName) {
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        parseToCsv("C:\\source\\javabigwork\\out\\artifacts\\javabigwork_war_exploded\\WEB-INF\\upload","C:\\source\\javabigwork\\out\\artifacts\\javabigwork_war_exploded\\WEB-INF\\upload\\csv\\"
+                ,"upload"+new Date().getTime());
+
+        resp.setHeader("content-type", "text/html;charset=UTF-8");
+        resp.setCharacterEncoding("UTF-8");
+        PrintWriter out = resp.getWriter();
+
+
+
+//        String text = "/javabigwork_war_exploded/answer.jsp?" + "question=" + c + "&answer=" + start(c);
+//        System.out.println(text);
+        resp.sendRedirect("/javabigwork_war_exploded/homepage.jsp?request=OK");
+    }
+
+    public static void parseToCsv(String filePath, String savePath, String saveName) {
 
         ArrayList<String[]> crimeList = new ArrayList<>();
         ArrayList<String> filePaths = new ReadFilePath().getFiles(filePath);
         ArrayList<BeanCrime> crimes = new ArrayList<>();
         Map<String, BeanPrisoner> prisonerMap = new HashMap<>();
-        File file = new File("web/WEB-INF/upload/csv/");
+        File file = new File("C:\\source\\javabigwork\\out\\artifacts\\javabigwork_war_exploded\\WEB-INF\\upload\\csv\\");
+        System.out.println(file.getAbsolutePath());
         if(!file.exists()  && !file.isDirectory())
         {
             file.mkdir();

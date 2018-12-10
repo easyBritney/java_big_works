@@ -65,7 +65,7 @@ public class MatchPrisoner {
 //            CustomDictionary.insert(findName, "nr 2048");
             // Txt.WriteDictionary(findName + " nr 2048", "E:\\学习\\java项目\\HanLP-master\\HanLP-master\\data\\dictionary\\custom\\毒贩词库.txt");
 
-            String regularIdcard = "^(\\d{6})(19|20)(\\d{2})(1[0-2]|0[1-9])(0[1-9]|[1-2][0-9]|3[0-1])(\\d{3})(\\d|X|x)?$";
+            String regularIdcard = "(\\d{6})(19|20)(\\d{2})(1[0-2]|0[1-9])(0[1-9]|[1-2][0-9]|3[0-1])(\\d{3})(\\d|X|x)";
 
             Matcher idMarcher = Pattern.compile(regularIdcard).matcher(matchString);
 
@@ -77,7 +77,8 @@ public class MatchPrisoner {
                 leverMarcher = Pattern.compile(regularLever).matcher(info[index]);
                 if (info[index].contains("男") ||info[index].contains("女"))
                 {
-                    prisoner.setSex(info[index]);
+                    if(info[index].length()<=3)
+                        prisoner.setSex(info[index]);
                 }
                 else if(info[index].contains("日出生"))
                 {

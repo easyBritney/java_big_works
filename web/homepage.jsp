@@ -128,8 +128,23 @@
 
             </div>
         </div>
-        <button id ="btn1" class="btn btn-primary " type="button" value="分析数据">分析数据</button>
+        <form action="${pageContext.request.contextPath}/analysis.do" method="post">
+            <button id ="btn1" class="btn btn-primary " type="submit" value="分析数据">分析数据</button>
+        </form>
+        <script>
 
+            var searchURL = decodeURI(window.location.search);
+            searchURL = searchURL.substring(1, searchURL.length);
+            // console.log(searchURL);
+            var targetPageId;
+            targetPageId = searchURL.split("=")[1];
+            if(targetPageId === "OK")
+            window.alert("分析成功");
+
+                // console.log(targetPageId);
+
+
+        </script>
     </div>
 
 
@@ -191,11 +206,6 @@
             <%--}--%>
         <%--});--%>
     <%--});--%>
-    $("#btn1").click(function(){
-       <%ParseToCsv.parseToCsv("web/WEB-INF/upload/","web/WEB-INF/upload/csv/","upload"+new Date().getTime());%>
-        alert("分析完毕");
-    });
-
 
     $("#dropzoneForm").dropzone({
         paramName: "file", // The name that will be used to transfer the file
@@ -210,13 +220,6 @@
         dictDefaultMessage: "<strong>在这里删除文件或点击上传。</strong></br>请将要上传的文件放在此处"
 
     });
-
-    $("#btn1").click(function(){
-        <%ParseToCsv.parseToCsv("WEB-INF/upload/","WEB-INF/upload/csv","upload"+new Date().getTime());%>
-        alert("分析完毕");
-    });
-
-
 
 
 </script>

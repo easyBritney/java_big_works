@@ -5,11 +5,11 @@
          version="4.0">
 
     <servlet>
-        <servlet-name>javaBigProject</servlet-name>
+        <servlet-name>Predict</servlet-name>
         <servlet-class>python.Console</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>javaBigProject</servlet-name>
+        <servlet-name>Predict</servlet-name>
         <url-pattern>/answer.do</url-pattern>
     </servlet-mapping>
          
@@ -22,5 +22,14 @@
     <servlet-mapping>
         <servlet-name>UploadHandleServlet</servlet-name>
         <url-pattern>/servlet/UploadHandleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Analysis</servlet-name>
+        <servlet-class>parser.ParseToCsv</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Analysis</servlet-name>
+        <url-pattern>/analysis.do</url-pattern>
     </servlet-mapping>
 </web-app>
