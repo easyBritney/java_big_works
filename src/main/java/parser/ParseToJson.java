@@ -81,7 +81,7 @@ public class ParseToJson {
         List<BeanCase> cases = null;
 
         String nodes = "\"nodes\":[ ";
-        String links = "\"links\":[ ";
+        String links = "\r\n\"links\":[ ";
 
 
         Session session = HibernateUtil.getSession();
@@ -134,9 +134,17 @@ public class ParseToJson {
         } catch (BaseException e) {
             e.printStackTrace();
         }
+        if(nodes.endsWith(",\r\n"))
+            nodes = nodes.substring(0,nodes.lastIndexOf(","));
+        if(links.endsWith(",\r\n"))
+            links = links.substring(0,links.lastIndexOf(","));
         String text = "{".concat(nodes).concat("],").concat(links).concat("]}");
 
         Txt.WriteDictionary(text, savePath, false, "UTF-8");
+    }
+    public static void main(String args[])
+    {
+        sqlParseToJson("E:\\学习\\java项目\\Test\\force.json");
     }
 
 }
