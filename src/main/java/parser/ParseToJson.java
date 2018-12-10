@@ -85,7 +85,7 @@ public class ParseToJson {
 
 
         Session session = HibernateUtil.getSession();
-        String hql = "from BeanCrime";
+        String hql = "from BeanCrime ";
         Query qry = session.createQuery(hql);
 
         crimes = qry.list();
@@ -116,21 +116,27 @@ public class ParseToJson {
             }
         }
         session.close();
+        try {
+            cases = CaseManager.loadAllCases();
 
-        for (BeanCase Case : cases) {
-            if(Case.getInfo().contains("卖"))
-                links = links.concat("{\"source\":\"" + Case.getPerson1() + "\",\"target\":\"" + Case.getPerson2() + "\",\"value\":120,\"relation\":\"" + "贩卖" + "\"},\r\n");
-            else if(Case.getInfo().contains("买"))
-                links = links.concat("{\"source\":\"" + Case.getPerson1() + "\",\"target\":\"" + Case.getPerson2() + "\",\"value\":120,\"relation\":\"" + "购买" + "\"},\r\n");
-            else if(Case.getInfo().contains("使"))
-                links = links.concat("{\"source\":\"" + Case.getPerson1() + "\",\"target\":\"" + Case.getPerson2() + "\",\"value\":120,\"relation\":\"" + "唆使" + "\"},\r\n");
-            else if(Case.getInfo().equals("容留"))
-                links = links.concat("{\"source\":\"" + Case.getPerson1() + "\",\"target\":\"" + Case.getPerson2() + "\",\"value\":120,\"relation\":\"" + "容留" + "\"},\r\n");
-            else if(Case.getInfo().equals("联系")||Case.getInfo().equals("伙同"))
-                links = links.concat("{\"source\":\"" + Case.getPerson1() + "\",\"target\":\"" + Case.getPerson2() + "\",\"value\":120,\"relation\":\"" + "伙同" + "\"},\r\n");
+            for (BeanCase Case : cases) {
+                if(Case.getInfo().contains("卖"))
+                    links = links.concat("{\"source\":\"" + Case.getPerson1() + "\",\"target\":\"" + Case.getPerson2() + "\",\"value\":120,\"relation\":\"" + "贩卖" + "\"},\r\n");
+                else if(Case.getInfo().contains("买"))
+                    links = links.concat("{\"source\":\"" + Case.getPerson1() + "\",\"target\":\"" + Case.getPerson2() + "\",\"value\":120,\"relation\":\"" + "购买" + "\"},\r\n");
+                else if(Case.getInfo().contains("使"))
+                    links = links.concat("{\"source\":\"" + Case.getPerson1() + "\",\"target\":\"" + Case.getPerson2() + "\",\"value\":120,\"relation\":\"" + "唆使" + "\"},\r\n");
+                else if(Case.getInfo().equals("容留"))
+                    links = links.concat("{\"source\":\"" + Case.getPerson1() + "\",\"target\":\"" + Case.getPerson2() + "\",\"value\":120,\"relation\":\"" + "容留" + "\"},\r\n");
+                else if(Case.getInfo().equals("联系")||Case.getInfo().equals("伙同"))
+                    links = links.concat("{\"source\":\"" + Case.getPerson1() + "\",\"target\":\"" + Case.getPerson2() + "\",\"value\":120,\"relation\":\"" + "伙同" + "\"},\r\n");
+            }
+        } catch (BaseException e) {
+            e.printStackTrace();
         }
         String text = "{".concat(nodes).concat("],").concat(links).concat("]}");
 
         Txt.WriteDictionary(text, savePath, false, "UTF-8");
     }
+
 }
