@@ -1,6 +1,7 @@
 package hibernate_test;
 
 import model.BeanDrug;
+import org.hibernate.Query;
 import org.hibernate.Session;
 
 import java.io.IOException;
@@ -28,7 +29,7 @@ public class DrugManager {
             Session session=HibernateUtil.getSession();
             session.beginTransaction();
             String hql="From BeanDrug";
-            org.hibernate.query.Query qry = session.createQuery(hql);
+            Query qry = session.createQuery(hql);
             list=qry.list();
             session.getTransaction().commit();
             session.close();

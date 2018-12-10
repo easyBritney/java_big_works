@@ -6,11 +6,13 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import hibernate_test.CrimeManager;
 import javafx.util.Pair;
 import model.BeanCrime;
 import model.BeanPrisoner;
 
 import reader.ReadDocUtil;
+import tools.Csv;
 
 
 public class MatchCrime {
@@ -21,15 +23,6 @@ public class MatchCrime {
     			"|([二][Ｏ〇oO一二三四五六七八九十[0-9][\\s][^;,，。（\\n\\r]]+[年][一二三四五六七八九十[0-9][\\s][^。\\n\\r]]+[月][一二三四五六七八九十[0-9][ ]&&[^。\\n\\r]]+[日]?)"+
 				"|([2][Ｏ〇oO一二三四五六七八九十[0-9][\\s][^;,，。（\\n\\r]]+[年][一二三四五六七八九十[0-9][\\s][^。\\n\\r]]+[月][一二三四五六七八九十[0-9][ ]&&[^。\\n\\r]]+[日]?)";
 
-
-//	public static String regexInfo="(经审理查明[\\s\\S.]+上述[\\u0391-\\uFFE5]*事实)" +
-//			"|(经审理查明[\\s\\S.]+以上事实)"+
-//			"|(公诉机关指控[\\s\\S.]+以上事实)"+
-//			"|(公诉机关指控[\\s\\S.]+上述事实)"+
-//			"|(人民检察院指控[\\s\\S.]+上述事实)"+
-//			"|(人民检察院指控[\\s\\S.]+以上事实)";        //公诉机关指控  //人民检察院指控";  指控：。。。公诉机关认为
-
-	
 	private Pattern pattern = Pattern.compile(regexPlace);
 	public BeanCrime Match(String fileName)
 	{
@@ -40,10 +33,7 @@ public class MatchCrime {
 		Map<String,BeanPrisoner> prisonerMap=new MatchPrisoner().Match(text);
         List<BeanPrisoner> prisoners = new ArrayList<BeanPrisoner>();
         Matcher matcher = pattern.matcher(text);
-
-//        Matcher infoMatcher = Pattern.compile(regexInfo).matcher(text);
-
-
+        
         while( matcher.find() )
         {
         	if(matcher.group(1)!=null) //检察院
@@ -53,8 +43,10 @@ public class MatchCrime {
         	}
         	else if(matcher.group(2)!=null)  //案件号
         	{
-        		crime.setSerial(matcher.group());
+        		crime.setSerial(tools.Csv.toSemiangle(matcher.group()));
         		System.out.println(matcher.group());
+        		if(CrimeManager.hasCrime(crime.getSerial()))
+        		    return null;
         	}
         	else if(matcher.group(3)!=null)   //第一被告
         	{
